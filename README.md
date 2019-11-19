@@ -1,7 +1,9 @@
-# Code Institute
+# First Milestone Project
 
-Welcome Rodrigo Alvarez Monterroso,
+Welcome,
 
-We have preinstalled all of the tools you need to get started.
+This is the first milestone project using HTML5, CSS3 from Code Institute
 
-This is the correct one
+Website for Koller Investments live at GitHub Pages
+
+https://bramrodrigo89.github.io/first-milestone-project/
