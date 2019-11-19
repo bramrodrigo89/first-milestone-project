@@ -2,75 +2,143 @@
 <html lang="en-us">
 
 <head>
-    <!-- META TAGS -->
+	<!-- META TAGS -->
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <!-- LINKS -->
+	<!-- LINKS -->
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css" />
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel='icon' href="./assets/images/koller.ico" type="image/x-icon">
-    <title>Koller Investments | Growth mindset crossing borders</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+		type="text/css" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+		type="text/css" />
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+		integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
+		type="text/css" />
+	<link rel="stylesheet" href="assets/css/style.css" type="text/css">
+	<link rel='icon' href="./assets/images/koller.ico" type="image/x-icon">
+	<title>Koller Investments | Growth mindset crossing borders</title>
 </head>
 
 <body>
 
-    <!--- Header --->
+	<!------- HEADER -------->
 
-    <header>
-        <div class="row">
-            <div class="col-8"></div>
-            <div class="bg-header-menu-list">
-                <ul class="nav flex-column">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link 1</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link 2</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link 3</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link 4</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-4"></div>
-        </div>
+	<header>
+		<div class="alert alert-dark mb-0 d-none d-md-block" role="alert">
+			<form>
+				<div class="form-row align-items-center">
+					<div class="ml-auto col-3 my-1">
+						<label class="sr-only" for="inlineFormInputGroupUsername">Username</label>
+						<div class="input-group">
+							<input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Username">
+										    </div>
+						</div>
+						<div class="col-auto my-1">
+							<div class="form-check">
+								<input class="form-check-input" type="checkbox" id="autoSizingCheck2">
+								<label class="form-check-label" for="autoSizingCheck2">Remember me</label>
+							</div>
+						</div>
+						<div class="col-auto my-1 mr-3">
+							<button type="submit" class="btn btn-dark">Log In</button>
+						</div>
+					</div>
+			</form>
+		</div>
+		<div class="container-fluid bg-navbar-container">
+			<nav class="navbar navbar-expand-md navbar-light">
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+	                <span class="navbar-toggler-icon"></span>
+	            </button>
+				<div class="collapse navbar-collapse" id="navbarToggler">
+					<ul class="nav d-md-none mr-auto mt-2 mt-lg-0 sm-navigation-list">
+						<li class="nav-item active">
+							<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">About Us</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Projects</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Reservations</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Contact</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+		<div class="container-fluid bg-navbar-container">
+			<div class="row">
+				<div class="col col-md-8">
+				<div class="row">
+                <div class="col-8">
+                <img src="./assets/images/koller_logo_transparent.png" class="rounded mx-auto d-block" alt="Koller Investments Logo" width="100%">
+                </div>
+                <div class="col-4 heading-slogan">Growth Mindset Crossing Borders</div>
+                </div>
+				</div>
+				<div class="col-4 d-none d-md-block">
+					<ul class="nav flex-column mt-5 md-navigation-list">
+						<li class="nav-item">
+							<a class="nav-link active" href="#">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">About us</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Projects</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Reservations</a>
+						</li>
+                        <li class="nav-item">
+							<a class="nav-link" href="#">Contact</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
 
-    </header>
 
-    <!--- Section: About Us --->
+	</header>
 
-    <section>
+	<!--- Section: About Us Inormation --->
 
-    </section>
+	<section>
 
-    <!--- Article: Our Services --->
+	</section>
 
-    <article>
+	<!--- Article: Our Services --->
 
-    </article>
+	<article>
 
-    <!--- Footer --->
+	</article>
 
-    <footer>
+	<!--- Footer --->
 
-    </footer>
+	<footer>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	</footer>
+
+	<!--- JS For BOotstrap --->
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+		integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+	</script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+		integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
+	</script>
 
 </body>
 

@@ -1,7 +1,43 @@
 
+/*--------------------------------------------Colors*/
 
-.bg-header-menu-list {
+.bg-navbar-container {
     background-color: gray;
+}
+
+/*--------------------------------------------Special paddings/margins/text*/
+
+.uppercase {
     margin: 0;
-    padding: 0;
+    text-transform: uppercase;
+}
+
+.inline-block {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+/*--------------------------------------------Heading*/
+
+.nav-log-in-form {
+    position: absolute;
+    right: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.heading-slogan {
+    margin-top: auto;
+    text-transform: uppercase;
+    color: whitesmoke;
+}
+
+.md-navigation-list li a{
+    color:darkslategray;
+    text-transform: upppercase;
+}
+
+.sm-navigation-list li a{
+    color: darkslategray;
+    text-transform: uppercase;
 }
