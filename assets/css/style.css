@@ -1,8 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700|Open+Sans:100,200,300,400,500,600,700|');
 
 /*--------------------------------------------Colors*/
 
 .bg-navbar-container {
-    background-color: gray;
+    background: url("../images/Background_image8.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 350px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
 }
 
 /*--------------------------------------------Special paddings/margins/text*/
@@ -17,6 +27,11 @@
     margin-top: 10px;
 }
 
+.general-sub {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    color: #fafafa;
+}
 /*--------------------------------------------Heading*/
 
 .nav-log-in-form {
@@ -26,20 +41,29 @@
     padding: 0px;
 }
 
-.heading-slogan {
-    margin-top: auto;
-    text-transform: uppercase;
-    color: whitesmoke;
+.header-logo {
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+.header-slogan {
+    margin: auto;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
 }
 
 .md-navigation-list li a{
-    color:darkslategray;
+    color:#1A1423;
     text-transform: upppercase;
+    font-family: 'Open Sans', sans-serif;
+
 }
 
 .sm-navigation-list li a{
-    color: darkslategray;
+    color:#1A1423;
     text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .logo {
@@ -47,17 +71,70 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 360px;
+    margin:auto;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
 }
 
+/* ----------------------------------------About Us */
+
+.about-us-container {
+    height: 90vh;
+    background: url('../images/Background_image1.jpg') no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.logo-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background: url('../images/white_logo_transparent.png') no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    z-index: 1;
+}
+
 /* ----------------------------------------Footer */
 
 footer {
-    background-color: black;
-    color: lightgray;
+    background-color: #1A1423;
+    color: #EACDC2;
     min-height: 130px;
     margin: 0;
+}
+
+/*--------------------------------------------Media Queries */
+
+@media(max-width: 767px) {
+    .header-logo {
+    padding-top: 30px;
+    }
+
+    .header-slogan {
+    padding-top: 30px;
+    }
 }

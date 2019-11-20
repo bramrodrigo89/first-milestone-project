@@ -49,16 +49,13 @@
 					</div>
 			</form>
 		</div>
-		<div class="container-fluid bg-navbar-container">
-			<nav class="navbar navbar-expand-md navbar-light">
+		<div class="container-fluid">
+			<nav class="navbar navbar-expand-md navbar-light sm-block d-md-none">
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
 	                <span class="navbar-toggler-icon"></span>
 	            </button>
 				<div class="collapse navbar-collapse" id="navbarToggler">
-					<ul class="nav d-md-none mr-auto mt-2 mt-lg-0 sm-navigation-list">
-						<li class="nav-item active">
-							<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-						</li>
+					<ul class="nav d-md-none mr-auto mt-2 sm-navigation-list">
 						<li class="nav-item">
 							<a class="nav-link" href="#">About Us</a>
 						</li>
@@ -82,17 +79,14 @@
 			<div class="row">
 				<div class="col col-md-8">
 					<div class="row">
-						<div class="col-8">
-							<img src="./assets/images/koller_logo_transparent.png" class="rounded mx-auto d-block" alt="Koller Investments Logo" width="100%">
+						<div class="col-8" href="index.html">
+                        <img src="./assets/images/koller_logo_transparent.png" class="header-logo rounded mx-auto d-block" alt="Company logo" width='100%'>
                         </div>
-							<div class="col-4 heading-slogan">Growth Mindset Crossing Borders</div>
+						<div class="col-4 header-slogan">Growth Mindset Crossing Borders</div>
 						</div>
 					</div>
 					<div class="col-4 d-none d-md-block">
-						<ul class="nav flex-column mt-5 md-navigation-list">
-							<li class="nav-item">
-								<a class="nav-link active" href="#">Home</a>
-							</li>
+						<ul class="nav flex-column mt-4 md-navigation-list">
 							<li class="nav-item">
 								<a class="nav-link" href="#">About us</a>
 							</li>
@@ -111,17 +105,69 @@
 			</div>
 	</header>
 
-	<!--- Section: About Us --->
 
-	<section>
-		This is a section
-	</section>
 
-	<!--- Article: Our Services --->
 
-	<article>
-		This is an article
-	</article>
+	<div class="container-fluid about-us-container">
+
+		<!--- Section: About Us --->
+		<div class="logo-overlay">&nbsp;</div>
+		<div class="opaque-overlay">&nbsp;</div>
+		<div class="row">
+			<div class="col-12">
+				<section class="jumbotron about-us-jumbotron">
+					<h1 class="display-5">About us</h1>
+					<p class="lead"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae quidem cumque,
+						molestias dolor deleniti labore blanditiis possimus perferendis dolore excepturi. Nisi nemo quaerat eos
+						ut similique libero quos illum natus.</p>
+					<hr class="my-3">
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, nihil.</p>
+					<a class="btn btn-dark btn-lg" href="#" role="button">Contact</a>
+				</section>
+			</div>
+		</div>
+
+	</div>
+		
+        <!--- Section: Our Services --->
+
+    <div class="container-wrapper container-wrapper--red">
+            <div class="container features-container content-container">
+                <section class="features">
+                    <div class="row">
+                        <div class="col-12 page-header">
+                            <h2 class="text-uppercase">Services:</h2>
+                            <hr class="block-divider block-divider--short block-divider--white">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="feature">
+                                <h3><i class="fas fa-gift d-none d-sm-block"></i> Service 1</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                <p><a class="btn btn-sm btn-dark" href="">Read More</a></p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="feature">
+                                <h3><i class="fas fa-credit-card d-none d-sm-block"></i> Service 2</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                <p><a class="btn btn-sm btn-dark" href="">Read More</a></p>
+                            </div>
+                        </div>
+                        <div class="col-12 d-md-none d-lg-block col-lg-4">
+                            <div class="feature">
+                                <h3><i class="fas fa-times-circle d-none d-sm-block"></i> Service 3</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                <p><a class="btn btn-sm btn-dark" href="">Read More</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+        </div>
+    </div>
+
+
 
 	<!--- Footer --->
 
