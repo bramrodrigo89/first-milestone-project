@@ -41,3 +41,23 @@
     color: darkslategray;
     text-transform: uppercase;
 }
+
+.logo {
+    background: url("../images/koller_logo_transparent.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+/* ----------------------------------------Footer */
+
+footer {
+    background-color: black;
+    color: lightgray;
+    min-height: 130px;
+    margin: 0;
+}
