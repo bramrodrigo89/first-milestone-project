@@ -146,6 +146,14 @@ footer {
     padding: 30px 20px;
 }
 
+.footer-navigation-list li a {
+    color: #EACDC2;
+}
+
+.footer-navigation-list li a:hover {
+    color: #B75D69;
+}
+
 .social-links {
     padding-bottom: 15px;
 }
@@ -159,7 +167,7 @@ footer {
     font-size: 20px;
     line-height: 7px;
     text-align: center;
-    color: #fafafa;
+    color: #EACDC2;
     background-color: #774C60;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
