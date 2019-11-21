@@ -28,10 +28,10 @@
 	<!------- HEADER -------->
 
 	<header>
-		<div class="alert alert-dark mb-0 d-none d-md-block" role="alert">
+		<div class="banner-log-in alert-dark mb-0 d-none d-md-block">
 			<form>
 				<div class="form-row align-items-center">
-					<div class="ml-auto col-3 my-1">
+					<div class="ml-auto col-2 my-1">
 						<label class="sr-only" for="inlineFormInputGroupUsername">Username</label>
 						<div class="input-group">
 							<input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Username">
@@ -49,8 +49,8 @@
 					</div>
 			</form>
 		</div>
-		<div class="container-fluid">
-			<nav class="navbar navbar-expand-md navbar-light sm-block d-md-none">
+		<div class="container-fluid p-0">
+			<nav class="navbar navbar-expand-lg navbar-light sm-block d-md-none alert-dark">
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
 	                <span class="navbar-toggler-icon"></span>
 	            </button>
@@ -75,17 +75,17 @@
 				</div>
 			</nav>
 		</div>
-		<div class="container-fluid bg-navbar-container">
+		<div class="container-fluid bg-nav-container">
 			<div class="row">
 				<div class="col col-md-8">
 					<div class="row">
-						<div class="col-8" href="index.html">
-                        <img src="./assets/images/koller_logo_transparent.png" class="header-logo rounded mx-auto d-block" alt="Company logo" width='100%'>
+						<div class="col-8" >
+                        <a href="index.html"><img src="./assets/images/koller_logo_transparent.png" class="header-logo rounded mx-auto d-block" alt="Company logo" width='100%'></a>
                         </div>
 						<div class="col-4 header-slogan">Growth Mindset Crossing Borders</div>
 						</div>
 					</div>
-					<div class="col-4 d-none d-md-block">
+					<div class="col-3 d-none d-md-block offset-1">
 						<ul class="nav flex-column mt-4 md-navigation-list">
 							<li class="nav-item">
 								<a class="nav-link" href="#">About us</a>
@@ -131,7 +131,7 @@
 		
         <!--- Section: Our Services --->
 
-    <div class="container-wrapper container-wrapper--red">
+    <div class="container-fluid bg-services-container">
             <div class="container features-container content-container">
                 <section class="features">
                     <div class="row">
@@ -174,22 +174,62 @@
 	<footer class="container-fluid">
 		<div class="row">
 			<div class="col-sm-4">
-				<h5 class="uppercase general-sub">Column 1</h5>
-				<p class="inline-block">
+                <img src="./assets/images/white_logo_transparent.png" class="mleft-auto" alt="Company logo" width='70%'>
+				<p class="block pl-3">
 					Koller Investments 2019
 				</p>
 			</div>
 			<div class="col-sm-4">
-				<h5 class="uppercase general-sub">Column 2</h5>
-				<p class="inline-block">
-					Information
-				</p>
+				<h5 class="uppercase general-sub">Home</h5>
+                    <ul class="nav flex-column footer-navigation-list">
+						<li class="nav-item">
+								<a class="nav-link" href="#">About us</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Projects</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Reservations</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Contact</a>
+							</li>
+					</ul>
 			</div>
 			<div class="col-sm-4">
-				<h5 class="uppercase general-sub">Column 3</h5>
-				<p class="inline-block">
-					Information
-				</p>
+				<h5 class="uppercase general-sub">Find us on</h5>
+				<ul class="list-inline social-links">
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                            <i class="fab fa-facebook" aria-hidden="true"></i>
+                            <span class="sr-only">Facebook</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                            <i class="fab fa-twitter" aria-hidden="true"></i>
+                            <span class="sr-only">Twitter</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                            <i class="fab fa-linkedin" aria-hidden="true"></i>
+                            <span class="sr-only">LinkedIn</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                            <i class="fab fa-instagram" aria-hidden="true"></i>
+                            <span class="sr-only">Instagram</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                            <i class="fab fa-youtube" aria-hidden="true"></i>
+                            <span class="sr-only">YouTube</span>
+                        </a>
+                    </li>
+                </ul>
 			</div>
 		</div>
 	</footer>

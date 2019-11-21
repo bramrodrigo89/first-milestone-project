@@ -2,12 +2,12 @@
 
 /*--------------------------------------------Colors*/
 
-.bg-navbar-container {
+.bg-nav-container {
     background: url("../images/Background_image8.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 350px;
+    height: 60vh;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
@@ -29,11 +29,17 @@
 
 .general-sub {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 100;
+    font-weight: 200;
     color: #fafafa;
 }
 /*--------------------------------------------Heading*/
 
+.banner-log-in {
+    position: relative;
+    padding: 2rem 2rem;
+    margin-bottom: 2rem;
+
+}
 .nav-log-in-form {
     position: absolute;
     right: 0px;
@@ -49,21 +55,30 @@
 .header-slogan {
     margin: auto;
     font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
     font-size: 20px;
     font-weight: 300;
 }
 
+/*Tablet-and-destop version navigation list*/
+
 .md-navigation-list li a{
     color:#1A1423;
-    text-transform: upppercase;
-    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
 
 }
+
+/*Mobile version navigation collapse list*/
 
 .sm-navigation-list li a{
     color:#1A1423;
     text-transform: uppercase;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#navbarToggler {
+    margin-top: 20px;
 }
 
 .logo {
@@ -82,6 +97,7 @@
 .about-us-container {
     height: 90vh;
     background: url('../images/Background_image1.jpg') no-repeat bottom right fixed;
+    opacity: 0.5;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -95,9 +111,11 @@
 .logo-overlay {
     position: absolute;
     top: 0;
-    right: 0;
+    left: 0;
     height: 100%;
     width: 100%;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
     background: url('../images/white_logo_transparent.png') no-repeat bottom right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -123,18 +141,54 @@
 footer {
     background-color: #1A1423;
     color: #EACDC2;
-    min-height: 130px;
-    margin: 0;
+    min-height: 150px;
+    margin: 0px;
+    padding: 30px 20px;
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    margin-top: 10px;
+    width: 40px;
+    height: 40px;
+    padding: 15px 0px;
+    border-radius: 50%;
+    font-size: 20px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background-color: #774C60;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #B75D69
 }
 
 /*--------------------------------------------Media Queries */
 
-@media(max-width: 767px) {
+@media(max-width: 991px) {
     .header-logo {
-    padding-top: 30px;
+    margin-top: 60px;
     }
 
     .header-slogan {
-    padding-top: 30px;
+    margin-top: 60px;
+    }
+}
+
+@media(min-width: 1440px) {
+    .md-navigation-list li a {
+    font-size: 40px ;
+    }
+
+    .header-slogan {
+    font-size: 40px;
     }
 }
