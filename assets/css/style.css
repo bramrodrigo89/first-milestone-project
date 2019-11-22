@@ -2,6 +2,10 @@
 
 /*--------------------------------------------Colors*/
 
+.bg-banner-log-in {
+    background-color: #fafafa;
+    color: #372549;
+}
 .bg-nav-container {
     background: url("../images/Background_image8.jpg");
     background-position: center;
@@ -13,7 +17,11 @@
     -webkit-transition: all .5s ease-in-out;
 }
 
+.bg-services-container {
+    background-color: #774C60;
+    color: #EACDC2;
 }
+
 
 /*--------------------------------------------Special paddings/margins/text*/
 
@@ -30,16 +38,35 @@
 .general-sub {
     font-family: 'Montserrat', sans-serif;
     font-weight: 200;
-    color: #fafafa;
+    color: #EACDC2;
 }
+
+.content-container {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+/*--------------------------------------------Buttons*/
+
+.btn-violet {
+    color: #EACDC2;
+    background-color: #372549;
+    border-color: #1A1423;
+}
+
+.btn-violet:hover {
+    color: #fafafa;
+    background-color: #774C60;
+    border-color: #1A1423;
+}
+
 /*--------------------------------------------Heading*/
 
 .banner-log-in {
     position: relative;
     padding: 2rem 2rem;
-    margin-bottom: 2rem;
-
 }
+
 .nav-log-in-form {
     position: absolute;
     right: 0px;
@@ -57,7 +84,8 @@
     font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
     font-size: 20px;
-    font-weight: 300;
+    font-weight: 400;
+    color: #774C60;
 }
 
 /*Tablet-and-destop version navigation list*/
@@ -134,6 +162,29 @@
     -o-background-size: cover;
     background-size: cover;
     z-index: 1;
+}
+
+/* ----------------------------------------Services */
+
+.feature {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.feature i {
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 45px;
+}
+
+.feature .btn {
+    background-color: white;
+    border-color: white;
+    border-radius: 15px;
+    min-width: 100px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #f05f40;
 }
 
 /* ----------------------------------------Footer */
