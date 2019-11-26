@@ -3,15 +3,15 @@
 /*--------------------------------------------Colors*/
 
 .bg-banner-log-in {
-    background-color: #fafafa;
+    background-color: transparent;
     color: #372549;
 }
 .bg-nav-container {
-    background: url("../images/Background_image8.jpg");
+    background: url("../images/Background_image3.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 60vh;
+    height: 100vh;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
@@ -22,6 +22,36 @@
     color: #EACDC2;
 }
 
+.bg-intro-container {
+    background-color: #372549;
+    color: white;
+}
+
+.header-color-opaque-overlay {
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    /*Deep taupe color*/
+    background-color: rgba(119, 76, 96, 0.2);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.about-us-color-opaque-overlay {
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    /*Deep puce color*/
+    background-color: rgba(183, 93, 105, 0.2);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
 
 /*--------------------------------------------Special paddings/margins/text*/
 
@@ -35,10 +65,16 @@
     margin-top: 10px;
 }
 
-.general-sub {
+.general-subtitle {
     font-family: 'Montserrat', sans-serif;
     font-weight: 200;
     color: #EACDC2;
+}
+
+.general-sub-subtitle {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: white;
 }
 
 .content-container {
@@ -60,7 +96,7 @@
     border-color: #1A1423;
 }
 
-/*--------------------------------------------Heading*/
+/*--------------------------------------------Header*/
 
 .banner-log-in {
     position: relative;
@@ -82,10 +118,9 @@
 .header-slogan {
     margin: auto;
     font-family: 'Open Sans', sans-serif;
-    text-transform: uppercase;
     font-size: 20px;
-    font-weight: 400;
-    color: #774C60;
+    font-weight: 600;
+    color: #372549;
 }
 
 /*Tablet-and-destop version navigation list*/
@@ -98,6 +133,11 @@
 }
 
 /*Mobile version navigation collapse list*/
+
+.nav-link {
+    display: block;
+    padding: 1rem 1rem;
+}
 
 .sm-navigation-list li a{
     color:#1A1423;
@@ -122,10 +162,12 @@
 
 /* ----------------------------------------About Us */
 
+.intro-container {
+    min-height: 40vh;
+}
 .about-us-container {
-    height: 90vh;
+    height: 100vh;
     background: url('../images/Background_image1.jpg') no-repeat bottom right fixed;
-    opacity: 0.5;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -140,8 +182,8 @@
     position: absolute;
     top: 0;
     left: 0;
-    height: 100%;
     width: 100%;
+    height: 100%;
     opacity: 0.5;
     filter: alpha(opacity=50);
     background: url('../images/white_logo_transparent.png') no-repeat bottom right fixed;
@@ -150,41 +192,38 @@
     -o-background-size: cover;
     background-size: cover;
 }
-.opaque-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.4);
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    z-index: 1;
-}
 
 /* ----------------------------------------Services */
 
-.feature {
+.services {
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
 }
 
-.feature i {
-    margin-bottom: 20px;
+.services h3 i {
+    margin: 20px auto;
     font-size: 45px;
-    line-height: 45px;
+    line-height: 50px;
+    color: #372549;
+    width: 80px;
+    height: 80px;
+    padding: 15px 0px;
+    border-radius: 50%;
+    background-color: #EACDC2;
 }
 
-.feature .btn {
-    background-color: white;
+.services .btn {
+    background-color: transparent;
     border-color: white;
     border-radius: 15px;
     min-width: 100px;
-    font-weight: bold;
     margin-top: 10px;
-    color: #f05f40;
+    color: white;
+}
+
+.services p {
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 /* ----------------------------------------Footer */
