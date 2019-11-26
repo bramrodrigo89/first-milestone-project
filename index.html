@@ -28,68 +28,45 @@
 	<!------- HEADER -------->
 
 	<header>
+	
 		<div class="container-fluid bg-nav-container">
-            <div class="header-color-opaque-overlay">&nbsp;</div>
-            		<div class="banner-log-in bg-banner-log-in d-none d-md-block">
-			<form>
-				<div class="form-row align-items-center">
-					<div class="ml-auto col-3 col-lg-2 my-1">
-						<label class="sr-only" for="inlineFormInputGroupUsername">Username</label>
-						<div class="input-group">
-							<input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Username">
+			<div class="header-color-opaque-overlay">&nbsp;</div>
+	
+			<!------- Log-in Banner -------->
+	
+			<div class="banner-log-in bg-banner-log-in d-none d-md-block">
+				<form>
+					<div class="form-row align-items-center">
+						<div class="ml-auto col-3 col-lg-2 my-1">
+							<label class="sr-only" for="inlineFormInputGroupUsername">Username</label>
+							<div class="input-group">
+								<input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Username">
+	                            </div>
+							</div>
+							<div class="col-auto my-1">
+								<div class="form-check">
+									<input class="form-check-input" type="checkbox" id="autoSizingCheck2">
+									<label class="form-check-label" for="autoSizingCheck2">Remember me</label>
+								</div>
+							</div>
+							<div class="col-auto my-1 mr-3">
+								<button type="submit" class="btn btn-violet">Log In</button>
+							</div>
 						</div>
-					</div>
-					<div class="col-auto my-1">
-						<div class="form-check">
-							<input class="form-check-input" type="checkbox" id="autoSizingCheck2">
-							<label class="form-check-label" for="autoSizingCheck2">Remember me</label>
-						</div>
-					</div>
-					<div class="col-auto my-1 mr-3">
-						<button type="submit" class="btn btn-violet">Log In</button>
-					</div>
-				</div>
-			</form>
-		</div>
-		<div class="container-fluid p-0">
-			<nav class="navbar navbar-expand-lg navbar-light sm-block d-md-none">
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
-	                <span class="navbar-toggler-icon"></span>
-	            </button>
-				<div class="collapse navbar-collapse" id="navbarToggler">
-					<ul class="nav d-md-none mr-auto mt-2 sm-navigation-list">
-						<li class="nav-item">
-							<a class="nav-link" href="#">About Us</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">Projects</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">Reservations</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">Contact</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">Log In</a>
-						</li>
-					</ul>
-				</div>
-			</nav>
-		</div>
-			<div class="row mt-md-5">
-				<div class="col col-md-8">
-					<div class="row">
-						<div class="col-8" >
-                        <a href="index.html"><img src="./assets/images/koller_logo_transparent.png" class="header-logo rounded mx-auto d-block" alt="Company logo" width='100%'></a>
-                        </div>
-						<div class="col-4 header-slogan">Growth Mindset Crossing Borders</div>
-						</div>
-					</div>
-					<div class="col-3 d-none d-md-block offset-1">
-						<ul class="nav flex-column mt-4 md-navigation-list">
+				</form>
+			</div>
+	
+			<!------- Expand Nav Menu (Small screen) -------->
+	
+			<div class="container-fluid p-0">
+				<nav class="navbar navbar-expand-md navbar-light sm-block d-md-none">
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+	                        <span class="navbar-toggler-icon"></span>
+	                    </button>
+					<div class="collapse navbar-collapse" id="navbarToggler">
+						<ul class="nav d-md-none mr-auto mt-2 sm-navigation-list">
 							<li class="nav-item">
-								<a class="nav-link" href="#">About us</a>
+								<a class="nav-link" href="#">About Us</a>
 							</li>
 							<li class="nav-item">
 								<a class="nav-link" href="#">Projects</a>
@@ -100,10 +77,43 @@
 							<li class="nav-item">
 								<a class="nav-link" href="#">Contact</a>
 							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Log In</a>
+							</li>
 						</ul>
 					</div>
+				</nav>
+			</div>
+	
+			<!------- Logo and Slogan -------->
+	
+			<div class="row">
+				<div class="col mt-5 mt-md-0">
+					<div class="row">
+						<div class="col-8">
+							<a href="index.html"><img src="./assets/images/koller_logo_transparent.png" class="header-logo rounded mx-auto d-block" alt="Company logo" width='100%'></a>
+						</div>
+						<div class="col-4 header-slogan">Growth Mindset Crossing Borders</div>
+					</div>
+				</div>
+				<div class="col-3 d-none d-md-block offset-1">
+					<ul class="nav flex-column mt-4 md-navigation-list">
+						<li class="nav-item">
+							<a class="nav-link" href="#">About us</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Projects</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Reservations</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Contact</a>
+						</li>
+					</ul>
 				</div>
 			</div>
+		</div>
 	</header>
 
 
@@ -111,12 +121,28 @@
 		
 		<div class="container-fluid intro-container content-container bg-intro-container">
 			<div class="row">
-				<div class="col-12 col-md-4">
-					<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+
+                <!--- Intro Text --->
+
+				<div class="col-12 col-md-8">
+					<section>
+						<h2 class="display-4">Koller</h2>
+						<p class="lead"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta magnam autem eius. Illo
+							eligendi rerum odit voluptas impedit dolor sed, eveniet praesentium accusantium similique blanditiis
+							tempora provident sit saepe. Quae!</p>
+						<hr class="my-3">
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, nihil.</p>
+					</section>
+				</div>
+
+                <!--- Image Carrousel --->
+
+				<div class="col-12 col-md-4 image-carrousel">
+					<div id="carousel-indicators" class="carousel slide" data-ride="carousel">
                         <ol class="carousel-indicators">
-                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                            <li data-target="#carousel-indicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-indicators" data-slide-to="1"></li>
+                            <li data-target="#carousel-indicators" data-slide-to="2"></li>
                         </ol>
                         <div class="carousel-inner">
                             <div class="carousel-item active">
@@ -129,27 +155,17 @@
                             <img src="./assets/images/background_image5.jpg" class="d-block w-100" alt="...">
                             </div>
                         </div>
-                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <a class="carousel-control-prev" href="#carousel-indicators" role="button" data-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                             <span class="sr-only">Previous</span>
                         </a>
-                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <a class="carousel-control-next" href="#carousel-indicators" role="button" data-slide="next">
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                             <span class="sr-only">Next</span>
                         </a>
                     </div>
 				</div>
-				<div class="col-12 col-md-8">
-					<section>
-						<h2 class="display-4">Koller</h2>
-						<p class="lead"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta magnam autem eius. Illo
-							eligendi rerum odit voluptas impedit dolor sed, eveniet praesentium accusantium similique blanditiis
-							tempora provident sit saepe. Quae!</p>
-						<hr class="my-3">
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, nihil.</p>
-						<a class="btn btn-dark btn-lg" href="#" role="button">Contact</a>
-					</section>
-				</div>
+
 			</div>
 		</div>
  
@@ -157,8 +173,11 @@
 			<div class="logo-overlay">&nbsp;</div>
 			<div class="about-us-color-opaque-overlay">&nbsp;</div>
 			<div class="row">
-				<div class="col-12">
-					<section class="jumbotron about-us-jumbotron">
+
+                <!--- About Us Jumbotron --->
+
+				<div class="col-12 col-md-8 mt-md-5 ml-auto">
+					<section class="about-us-jumbotron">
 						<h1 class="display-5">About us</h1>
 						<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae quidem cumque,
 							molestias dolor deleniti labore blanditiis possimus perferendis dolore excepturi. Nisi nemo quaerat
@@ -169,10 +188,11 @@
 						<a class="btn btn-dark btn-lg" href="#" role="button">Contact</a>
 					</section>
 				</div>
+
 			</div>
-		
 		</div>
-        <!--- Section: Our Services --->
+        
+    <!--- Section: Our Services --->
 
     <div class="container-fluid bg-services-container">
             <div class="container-fluid features-container content-container">
@@ -217,7 +237,7 @@
 	<footer class="container-fluid">
 		<div class="row">
 			<div class="col-sm-4 pl-5 py-3">
-                <img src="./assets/images/white_logo_transparent.png" class="mleft-auto" alt="Company logo" width='70%'>
+                <img src="./assets/images/white_logo_transparent.png" alt="Company logo" width='70%'>
 				<p class="block pl-3">
 					Koller Investments 2019
 				</p>
@@ -239,7 +259,7 @@
 							</li>
 					</ul>
 			</div>
-			<div class="col-sm-4 pl-4 py-3">
+			<div class="col-sm-4 pl-5 py-3">
 				<h5 class="uppercase general-sub">Find us on</h5>
 				<ul class="list-inline social-links">
                     <li class="list-inline-item">
