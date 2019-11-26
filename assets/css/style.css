@@ -7,7 +7,7 @@
     color: #372549;
 }
 .bg-nav-container {
-    background: url("../images/Background_image3.jpg");
+    background: url("../images/background_image3.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -24,7 +24,7 @@
 
 .bg-intro-container {
     background-color: #372549;
-    color: white;
+    color: #EACDC2;
 }
 
 .header-color-opaque-overlay {
@@ -119,7 +119,7 @@
     margin: auto;
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 200;
     color: #372549;
 }
 
@@ -164,10 +164,12 @@
 
 .intro-container {
     min-height: 40vh;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 .about-us-container {
     height: 100vh;
-    background: url('../images/Background_image1.jpg') no-repeat bottom right fixed;
+    background: url('../images/background_image1.jpg') no-repeat bottom right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -179,6 +181,20 @@
 }
 
 .logo-overlay {
+    background: url('../images/white_logo_transparent.png');
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.round-logo-overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -186,13 +202,12 @@
     height: 100%;
     opacity: 0.5;
     filter: alpha(opacity=50);
-    background: url('../images/white_logo_transparent.png') no-repeat bottom right fixed;
+    background: url('../images/white_logo_transparent_small.png') no-repeat bottom right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
-
 /* ----------------------------------------Services */
 
 .services {
