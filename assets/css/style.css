@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700|Open+Sans:100,200,300,400,500,600,700|');
 
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
 /*--------------------------------------------Colors*/
 
 .bg-banner-log-in {
@@ -8,6 +12,17 @@
 }
 .bg-nav-container {
     background: url("../images/background_image8.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+.bg-nav-container-2 {
+    background: url("../images/background_image9.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -54,6 +69,7 @@
 .uppercase {
     margin: 0;
     text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .inline-block {
@@ -68,7 +84,7 @@
 }
 
 .general-subtitle-dark {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
     font-weight: 300;
     color: #1A1423;
@@ -76,7 +92,6 @@
 }
 
 .general-sub-subtitle {
-    font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     color: #fafafa;
 }
@@ -84,7 +99,6 @@
 .content-container {
     padding-top: 70px;
     padding-bottom: 70px;
-    font-family: 'Open Sans', sans-serif;
 }
 
 /*--------------------------------------------Dividers*/
