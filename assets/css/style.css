@@ -170,6 +170,16 @@ body {
     border-color: #B75D69;
     color: #fafafa;
 }
+
+.btn-map-filter {
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 40px;
+}
+
 /*--------------------------------------------Header*/
 
 .banner-log-in {
