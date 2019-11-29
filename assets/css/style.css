@@ -156,7 +156,7 @@ body {
     color: #fafafa;
 }
 
-.projects-description .btn {
+.properties-description .btn {
     background-color: transparent;
     border-color: #fafafa;
     border-radius: 1rem;
@@ -165,7 +165,7 @@ body {
     color: #fafafa;
 }
 
-.projects-description .btn:hover {
+.properties-description .btn:hover {
     background-color: #B75D69;
     border-color: #B75D69;
     color: #fafafa;
@@ -178,6 +178,30 @@ body {
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 40px;
+    margin-top: 10px;
+    background-color: transparent;
+    border-color: #fafafa;
+    color: #fafafa;
+    border-radius: 1rem;
+    min-width: 100px;
+}
+
+.btn-map-filter:hover {
+    background-color: #B75D69;
+    border-color: #B75D69;
+}
+
+.btn-reserve {
+    color: #EACDC2;
+    background-color: #372549;
+    border-color: #372549;
+    border-radius: 1rem;
+}
+
+.btn-reserve:hover {
+    color: #fafafa;
+    background-color: #774C60;
+    border-color: #774C60;
 }
 
 /*--------------------------------------------Header*/
@@ -319,9 +343,9 @@ body {
     padding-right: 50px;
 }
 
-/* ----------------------------------------Projects */
+/* ----------------------------------------Properties */
 
-.projects-description {
+.properties-description {
     text-align: center;
     margin-top: 30px;
     margin-bottom: 10px;
@@ -329,11 +353,11 @@ body {
     padding-right: 30px;
 }
 
-.projects-description .image-carrousel {
+.properties-description .image-carrousel {
     margin: 30px 0px;
 }
 
-.projects-description i {
+.properties-description i {
     margin: 20px auto;
     font-size: 45px;
     line-height: 50px;
@@ -344,6 +368,55 @@ body {
     border-radius: 50%;
     background-color: #fafafa;
 }
+
+.our-properties-locations {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.selected-property-jumbotron {
+    padding: 2rem 0.5rem;
+    background-color: rgba(206, 197, 202, 0.9);
+    color: #372549;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+
+.property-info-item {
+    margin-bottom: 20px;
+    display: block;
+    clear: both;
+    text-align: left;
+
+}
+
+.property-info-item .key,
+.property-info-item .value {
+    padding-right: 8px;
+    display: inline-block;
+}
+
+.property-info-item .key p,
+.property-info-item .value p {
+    margin: 0;
+}
+
+.property-info-item .key {
+    width: 30%;
+    margin-right: 21px;
+    padding-top: 2px;
+    vertical-align: top;
+}
+
+.property-info-item .key p {
+    font-weight: 700;
+}
+
+.property-info-item .value {
+    position: relative;
+    width: 60%
+}
+
 
 /* ----------------------------------------Footer */
 
@@ -413,6 +486,10 @@ footer {
     .content-light-jumbotron {
            min-height: 300px;
            margin-top: 12em;
+    }
+
+    .selected-property-jumbotron {
+           min-height: 300px;
     }
 }
 
