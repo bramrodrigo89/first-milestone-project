@@ -5,6 +5,15 @@ body {
 }
 
 /*--------------------------------------------Colors*/
+/*
+Color Palette
+
+    black #1A1423
+    violet #372549
+    deep taupe #774C60
+    deep puce #B75D69
+    dust storm #EACDC2
+*/
 
 .bg-banner-log-in {
     background-color: transparent;
@@ -179,14 +188,15 @@ body {
     margin-right: 10px;
     margin-bottom: 40px;
     margin-top: 10px;
-    background-color: transparent;
-    border-color: #fafafa;
-    color: #fafafa;
+    color: #EACDC2;
+    background-color: #372549;
+    border-color: #372549;
     border-radius: 1rem;
     min-width: 100px;
 }
 
 .btn-map-filter:hover {
+    color: #fafafa;
     background-color: #B75D69;
     border-color: #B75D69;
 }
@@ -345,6 +355,12 @@ body {
 
 /* ----------------------------------------Properties */
 
+.properties-subtitle {
+    font-size: 3em;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
 .properties-description {
     text-align: center;
     margin-top: 30px;
@@ -358,12 +374,12 @@ body {
 }
 
 .properties-description i {
-    margin: 20px auto;
-    font-size: 45px;
-    line-height: 50px;
+    margin: 0px auto;
+    font-size: 30px;
+    line-height: 30px;
     color: #372549;
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
     padding: 15px 0px;
     border-radius: 50%;
     background-color: #fafafa;
@@ -486,6 +502,10 @@ footer {
     .content-light-jumbotron {
            min-height: 300px;
            margin-top: 12em;
+    }
+    
+    .properties-subtitle {
+    font-size: 4.5em;
     }
 
     .selected-property-jumbotron {
