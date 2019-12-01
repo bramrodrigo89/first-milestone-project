@@ -269,7 +269,6 @@
 
 						<h2 class="display-5 general-subtitle-light">Property Map</h2>
 						<p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum, ab!</p>
-						<hr class="my-3 divider-short-light">
                         <div class="d-block">
                             <div class="dropdown d-inline">
                                 <button class="btn btn-map-filter dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -298,11 +297,15 @@
 						<div id="map" style="width:100%;height:400px;"></div>
 						<script>
 							function initMap() {                        
-						                        var airali = {lat: 14.601815, lng: -90.510100};                        
-						                        var map = new google.maps.Map(
-						                            document.getElementById('map'), {zoom: 15, center: airali});                        
+						                        var airali = {lat: 14.601815, lng: -90.510100};
+                                                var insigne = {lat: 14.582959, lng: -90.485643};                        
+						                        var o2 = {lat: 14.562634, lng: -90.466841};
+                                                var map = new google.maps.Map(
+						                            document.getElementById('map'), {zoom: 13, center: insigne});                        
 						                        var marker = new google.maps.Marker({position: airali, map: map});
-						                        }
+                                                var marker2 = new google.maps.Marker({position: insigne, map: map});
+						                        var marker3 = new google.maps.Marker({position: o2, map: map});
+                                                }
 						</script>
 						
 						<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB0cJYvM7cpR-oAzJsUPNnKwHJeHaDkqNI&callback=initMap">
@@ -315,11 +318,10 @@
 					<div class="col-12 col-lg-6 pt-3 mt-auto">
 						<div class="selected-property-card">
 							<h4 class="display-5 general-subtitle-dark">(Selected Property Name)</h4>
-							<hr class="my-4 divider-long-dark">
-							<p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, harum?</p>
+							<p> Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
 							<div class="property-info-item">
 								<div class="key">
-                                    <i class="far fa-building d-inline"></i>
+                                    <i class="far fa-building fa-fw"></i>
 									<span class="uppercase">
 										Project:
 									</span>
@@ -331,8 +333,8 @@
 								</div>
 							</div>
 							<div class="property-info-item">
-								<i class="fas fa-map-marker-alt"></i>
                                 <div class="key">
+                                    <i class="fas fa-map-marker-alt fa-fw"></i>
 									<span class="uppercase">
 										Address:
 									</span>
@@ -345,7 +347,7 @@
 							</div>
 							<div class="property-info-item">
 								<div class="key">
-									<i class="fas fa-ruler-combined"></i>
+									<i class="fas fa-ruler-combined fa-fw"></i>
                                     <span class="uppercase">
 										Area:
 									</span>
@@ -358,7 +360,7 @@
 							</div>
 							<div class="property-info-item">
 								<div class="key">
-                                    <i class="fas fa-door-open"></i>
+                                    <i class="fas fa-door-open fa-fw"></i>
 									<span class="uppercase">
 										Rooms:
 									</span>
