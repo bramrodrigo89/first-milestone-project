@@ -234,12 +234,11 @@ Color Palette
     -webkit-transition: all .5s ease-in-out;
 }
 .header-slogan {
-    margin-top: 4em;
+    margin-top: 2em;
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     font-weight: 200;
     color: #372549;
-    text-shadow: 2px 2px #fafafa;
 }
 
 /*Tablet-and-destop version navigation list*/
@@ -390,7 +389,7 @@ Color Palette
     margin-bottom: 10px;
 }
 
-.selected-property-jumbotron {
+.selected-property-card {
     padding: 2rem 0.5rem;
     background-color: rgba(206, 197, 202, 0.9);
     color: #372549;
@@ -408,28 +407,23 @@ Color Palette
 
 .property-info-item .key,
 .property-info-item .value {
-    padding-right: 8px;
+    padding-right: 5px;
     display: inline-block;
-}
-
-.property-info-item .key p,
-.property-info-item .value p {
-    margin: 0;
 }
 
 .property-info-item .key {
     width: 30%;
-    margin-right: 21px;
+    margin-right: 10px;
     padding-top: 2px;
     vertical-align: top;
 }
 
-.property-info-item .key p {
+.property-info-item .key span {
     font-weight: 700;
 }
 
 .property-info-item .value {
-    position: relative;
+    position: absolute;
     width: 60%
 }
 
@@ -508,7 +502,7 @@ footer {
     font-size: 4.5em;
     }
 
-    .selected-property-jumbotron {
+    .selected-property-card {
            min-height: 300px;
     }
 }
