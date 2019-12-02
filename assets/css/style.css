@@ -101,6 +101,10 @@ Color Palette
     font-family: 'Montserrat', sans-serif;
 }
 
+.align-center {
+    text-align: center;
+}
+
 .inline-block {
     display: inline-block;
     margin-top: 10px;
@@ -410,6 +414,8 @@ Color Palette
     margin-bottom: 10px;
 }
 
+/* ----------------------------------------Reservation */
+
 .locations-map {
     width: 100%;
     height: 400px;
@@ -459,7 +465,15 @@ Color Palette
     padding-left: 10px;
 }
 
+.image-carrousel-small {
+    margin: 25px 0px;
+    width: 100%;
+}
 
+.reserve-property {
+    padding-left: 25px;
+    padding-right: 25px;
+}
 /* ----------------------------------------Footer */
 
 footer {
@@ -553,9 +567,6 @@ footer {
     .locations-map {
         height: 600px;
     }
-    .selected-property-card {
-        font-size: 20px;
-    }
 }
 
 /*-----------XX large (xxl) */
@@ -567,4 +578,8 @@ footer {
 
     .header-slogan {
     font-size: 40px;
+    }
+
+    .selected-property-card {
+    font-size: 20px;
     }
