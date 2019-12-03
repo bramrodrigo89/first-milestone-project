@@ -4,7 +4,7 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-/*--------------------------------------------Colors*/
+/*--------------------------------------------Colors, Backgrounds*/
 /*
 Color Palette
 
@@ -19,30 +19,20 @@ Color Palette
     background-color: transparent;
     color: #372549;
 }
-.bg-nav-container {
+
+.cityscape1 {
     background: url("../images/background_image8.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
 }
 
-.bg-nav-container-2 {
+.cityscape2 {
     background: url("../images/background_image9.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
 }
 
-.bg-nav-container-3 {
+.cityscape3 {
     background: url("../images/background_image11.jpg");
+}
+
+.bg-nav-container {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
