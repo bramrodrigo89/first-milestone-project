@@ -258,7 +258,9 @@ Color Palette
 /*Tablet-and-destop version navigation list*/
 
 .md-navigation-list li a{
-    color:#1A1423;
+    background-color: #ece3e8;
+    opacity: 0.9;
+    color: #1b1423;
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
 
@@ -324,6 +326,10 @@ Color Palette
     padding-right: 30px;
 }
 
+.about-us-container span {
+    font-size: 25px;
+}
+
 .logo-overlay {
     background: url('../images/white_logo_transparent_small.png') no-repeat top center fixed;
     height: 100%;
@@ -339,10 +345,12 @@ Color Palette
 
 .content-light-jumbotron {
     padding: 2rem 2rem;
-    background-color: rgba(206, 197, 202, 0.9);
+    background-color: rgba(236, 227, 232, 1.0);
     color: #372549;
     font-family: 'Open Sans', sans-serif;
 }
+
+
 /* ----------------------------------------Services */
 
 .services {
@@ -471,7 +479,7 @@ footer {
     color: #EACDC2;
     min-height: 150px;
     margin: 0px;
-    padding: 30px 20px;
+    padding: 30px 30px;
 }
 
 .footer-navigation-list li a {
@@ -531,7 +539,7 @@ footer {
 
     .content-light-jumbotron {
            min-height: 300px;
-           margin-top: 12em;
+           margin-top: 0em;
     }
     
     .properties-subtitle {
