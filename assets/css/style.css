@@ -20,6 +20,14 @@ Color Palette
     color: #372549;
 }
 
+.bg-nav-menu-list {
+    background-color: #ece3e8;
+    opacity: 0.9;
+    color: #1b1423;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+
 .cityscape1 {
     background: url("../images/background_image8.jpg");
 }
@@ -33,6 +41,8 @@ Color Palette
 }
 
 .bg-nav-container {
+    top: 0;
+    left: 0;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -52,26 +62,23 @@ Color Palette
     color: #EACDC2;
 }
 
-.deep-taupe-color-opaque-overlay {
+.deep-taupe-color{
+background-color: rgba(119, 76, 96, 0.2);
+}
+
+.deep-puce-color {
+    background-color: rgba(183, 93, 105, 0.2);
+}
+
+.color-opaque-overlay {
     position: absolute;
     left: 0;
     height: 100%;
     width: 100%;
-    /*Deep taupe color*/
-    background-color: rgba(119, 76, 96, 0.2);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-}
-
-.deep-puce-color-opaque-overlay {
-    position: absolute;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    /*Deep puce color*/
-    background-color: rgba(183, 93, 105, 0.2);
 }
 
 .intersection-container {
@@ -251,36 +258,29 @@ Color Palette
     margin-top: 2em;
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
-    font-weight: 200;
-    color: #372549;
+    font-weight: 300;
+    color: #3f3e40;
 }
 
-/*Tablet-and-destop version navigation list*/
-
-.md-navigation-list li a{
+.navigation-list-dark li a {
     background-color: #ece3e8;
     opacity: 0.9;
     color: #1b1423;
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
-
 }
-
-/*Mobile version navigation collapse list*/
 
 .nav-link {
     display: block;
     padding: 1rem 1rem;
 }
 
-.sm-navigation-list li a{
-    color:#1A1423;
-    text-transform: uppercase;
-    font-family: 'Montserrat', sans-serif;
-}
-
 #navbarToggler {
     margin-top: 20px;
+}
+
+.navbar {
+    padding: 1rem 1rem;
 }
 
 .logo {
@@ -521,7 +521,7 @@ footer {
 
 @media(min-width: 768px) {
     .header-logo {
-    margin-top: 60px;
+    margin-top: 50px;
     }
 
     .header-slogan {
