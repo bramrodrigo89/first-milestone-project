@@ -31,35 +31,34 @@
 
 			<!-- ..... Expand Nav Menu (Small screen) .... -->
 
-			<div class="container-fluid bg-nav-menu-list">
+			<div class="container-fluid bg-nav-menu-list" id="sticky-nav-menu-small-screen">
 				<nav class="navbar navbar-expand-md navbar-light sm-block d-md-none">
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
 	                    <span class="navbar-toggler-icon"></span>
 	                </button>
-					<div class="collapse navbar-collapse bg-nav-menu-list navigation-list-dark" id="navbarToggler">
+					<div class="collapse navbar-collapse bg-nav-menu-list" id="navbarToggler">
 						<ul class="nav d-md-none mr-auto mt-2">
 							<li class="nav-item">
-								<a class="nav-link mx-3 my-2" href="index.html#about-us-jumbotron">About Us</a>
+								<a class="nav-link mx-3 my-2 bg-nav-menu-list" href="index.html#about-us-jumbotron">About Us</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link mx-3 my-2" href="properties.html">Properties</a>
+								<a class="nav-link mx-3 my-2 bg-nav-menu-list" href="properties.html">Properties</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link mx-3 my-2" href="reservations.html">Reservations</a>
+								<a class="nav-link mx-3 my-2 bg-nav-menu-list" href="reservations.html">Reservations</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link mx-3 my-2" href="contact.html">Contact</a>
+								<a class="nav-link mx-3 my-2 bg-nav-menu-list" href="contact.html">Contact</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link mx-3 my-2" href="user-log-in.html">Log In</a>
+								<a class="nav-link mx-3 my-2 bg-nav-menu-list" href="user-log-in.html">Log In</a>
 							</li>
 						</ul>
 					</div>
 				</nav>
 			</div>
 
-
-		<div class="container-fluiv bg-nav-container">
+		<div class="container-fluid cityscape2 bg-big-container smooth-transition">
 			<div class="deep-puce-color color-opaque-overlay">&nbsp;</div>
 
 			<!-- ..... Log-in Banner .... -->
@@ -93,49 +92,51 @@
 					<div class="row">
 						<div class="col-8">
 							<a href="index.html"><img src=" ./assets/images/koller_logo_transparent.png"
-								class="header-logo rounded mx-auto d-block" alt="Company logo" style="width:100%"></a>
+								class="header-logo smooth-transition rounded mx-auto d-block" alt="Company logo" style="width:100%"></a>
 						</div>
-						<div class="col-4 header-slogan">Our Properties,<br />Your Success</div>
+						<div class="col-4 header-slogan smooth-transition">Our <span class="bold-weight">Properties</span>,<br />Your <span class="bold-weight">Success</span></div>
 					</div>
 				</div>
-				<div class="col-3 d-none d-md-block pr-0 offset-1 navigation-list-dark">
+				<div class="col-3 d-none d-md-block pr-0 offset-1 smooth-transition">
 					<ul class="nav flex-column mt-4">
 						<li class="nav-item">
-							<a class="nav-link" href="index.html#about-us-jumbotron">About us</a>
+							<a class="nav-link bg-nav-menu-list" href="index.html#about-us-jumbotron">About us</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="properties.html">Properties</a>
+							<a class="nav-link bg-nav-menu-list" href="properties.html">Properties</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="reservations.html">Reservations</a>
+							<a class="nav-link bg-nav-menu-list" href="reservations.html">Reservations</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="contact.html">Contact</a>
+							<a class="nav-link bg-nav-menu-list" href="contact.html">Contact</a>
 						</li>
 					</ul>
 				</div>
 			</div>
 		</div>
-	</header>
+	
+    </header>
 
 
 	<!-- ...... Section: Our Properties ...... -->
 
-	<div class="container-fluid intro-container content-container bg-intro-container">
-		<section>
+	<section>
+	
+		<div class="container-fluid intro-container content-container bg-intro-container">
 			<div class="row">
-
-				<div class="col-12 intro-text">
-
-					<h2 class="properties-subtitle general-subtitle pl-4">Our Properties</h2>
-					<p class="lead pl-4"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum doloribus quam
+	
+				<div class="col-12 px-0 px-md-4 intro-text">
+	
+					<h2 class="properties-subtitle general-subtitle pl-3">Our Properties</h2>
+					<p class="lead pl-3"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum doloribus quam
 						quasi
 						eos inventore facere modi natus, laboriosam repellendus distinctio qui, provident earum velit
 						incidunt ab a placeat perferendis obcaecati?</p>
-
+	
 					<div class="row properties-description">
-						<div class="col-12 col-md-6">
-
+						<div class="col-12 px-0 px-md-4 col-md-6">
+	
 							<i class="far fa-building d-block"></i>
 							<h3 class="display-5 mt-4 general-sub-subtitle">Workplaces</h3>
 							<hr class="my-3 divider-short-light">
@@ -144,8 +145,8 @@
 								libero obcaecati, vel molestias sit! Possimus facere enim delectus corrupti esse veniam
 								optio? </p>
 							<p><a class="btn btn-sm" href="">Reserve</a></p>
-
-							<div class="col-12 mx-auto image-carrousel">
+	
+							<div class="col-12 px-0 mx-auto image-carrousel">
 								<div id="carousel1-indicators" class="carousel slide" data-ride="carousel">
 									<ol class="carousel-indicators">
 										<li data-target="#carousel1-indicators" data-slide-to="0" class="active"></li>
@@ -155,30 +156,30 @@
 									<div class="carousel-inner">
 										<div class="carousel-item active">
 											<img src="./assets/images/carrousel/office_1.jpg" class="d-block w-100" alt="Apartment Building">
-		                                                            </div>
+			                                                            </div>
 											<div class="carousel-item">
 												<img src="./assets/images/carrousel/office_2.jpg" class="d-block w-100" alt="Office Building">
-		                                                            </div>
+			                                                            </div>
 												<div class="carousel-item">
 													<img src="./assets/images/carrousel/office_3.jpg" class="d-block w-100" alt="Apartment Building">
-		                                                            </div>
+			                                                            </div>
 												</div>
-												<a class="carousel-control-prev" href="#carousel1-indicators"
-													role="button" data-slide="prev">
+												<a class="carousel-control-prev" href="#carousel1-indicators" role="button"
+													data-slide="prev">
 													<span class="carousel-control-prev-icon" aria-hidden="true"></span>
 													<span class="sr-only">Previous</span>
 												</a>
-												<a class="carousel-control-next" href="#carousel1-indicators"
-													role="button" data-slide="next">
+												<a class="carousel-control-next" href="#carousel1-indicators" role="button"
+													data-slide="next">
 													<span class="carousel-control-next-icon" aria-hidden="true"></span>
 													<span class="sr-only">Next</span>
 												</a>
 											</div>
 										</div>
-
+	
 									</div>
-									<div class="col-12 col-md-6">
-
+									<div class="col-12 px-0 px-md-4 col-md-6">
+	
 										<i class="fas fa-home d-block"></i>
 										<h3 class="display-5 mt-4 general-sub-subtitle">Residential</h3>
 										<hr class="my-3 divider-short-light">
@@ -189,8 +190,8 @@
 											esse
 											veniam optio? </p>
 										<p><a class="btn btn-sm" href="">Reserve</a></p>
-
-										<div class="col-12 mx-auto image-carrousel">
+	
+										<div class="col-12 px-0 mx-auto image-carrousel">
 											<div id="carousel2-indicators" class="carousel slide" data-ride="carousel">
 												<ol class="carousel-indicators">
 													<li data-target="#carousel2-indicators" data-slide-to="0"
@@ -202,23 +203,21 @@
 												<div class="carousel-inner">
 													<div class="carousel-item active">
 														<img src="./assets/images/carrousel/residential_1.jpg" class="d-block w-100" alt="Apartment Building">
-		                                                            </div>
+			                                                            </div>
 														<div class="carousel-item">
 															<img src="./assets/images/carrousel/residential_2.jpg" class="d-block w-100" alt="Office Building">
-		                                                            </div>
+			                                                            </div>
 															<div class="carousel-item">
 																<img src="./assets/images/carrousel/residential_3.jpg" class="d-block w-100" alt="Apartment Building">
-		                                                            </div>
+			                                                            </div>
 															</div>
-															<a class="carousel-control-prev"
-																href="#carousel2-indicators" role="button"
-																data-slide="prev">
+															<a class="carousel-control-prev" href="#carousel2-indicators"
+																role="button" data-slide="prev">
 																<span class="carousel-control-prev-icon" aria-hidden="true"></span>
 																<span class="sr-only">Previous</span>
 															</a>
-															<a class="carousel-control-next"
-																href="#carousel2-indicators" role="button"
-																data-slide="next">
+															<a class="carousel-control-next" href="#carousel2-indicators"
+																role="button" data-slide="next">
 																<span class="carousel-control-next-icon" aria-hidden="true"></span>
 																<span class="sr-only">Next</span>
 															</a>
@@ -226,183 +225,183 @@
 													</div>
 												</div>
 											</div>
-
 										</div>
 									</div>
-		</section>
-	</div>
-
+								</div>
+	</section>
+    
 	<!-- .......  Intersection: Cityscape background ...... -->
 
 	<div class="container-fluid intersection-container">
-		<div class="deep-puce-color-opaque-overlay">&nbsp;</div>
+		<div class="deep-puce-color color-opaque-overlay color-opaque-overlay-short">&nbsp;</div>
 
 	</div>
 
 	<!-- .......  Section: Our Properties Locations ...... -->
-
-	<div class="container-fluid bg-services-container">
-		<div class="container-fluid content-container">
-			<section class="our-properties-locations">
-				<div class="row">
-					<div class="col-12 mb-5">
-						<h1 class="general-subtitle">Location Selector</h1>
-						<hr class="my-3 divider-short-light">
-					</div>
-				</div>
-
-
-				<div class="row">
-					<div class="col-12 col-lg-6">
-
-						<!-- ....  Locations Selector .... -->
-
-						<h2 class="display-5 general-subtitle-light">Property Map</h2>
-						<p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum, ab!</p>
-						<div class="d-block">
-							<div class="dropdown d-inline">
-								<button class="btn btn-map-filter dropdown-toggle" type="button" id="dropdown-property-type" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Type
-                            </button>
-								<div class="dropdown-menu" aria-labelledby="dropdown-property-type">
-									<a class="dropdown-item" href="#">Residential</a>
-									<a class="dropdown-item" href="#">Workspace</a>
-								</div>
-							</div>
-							<div class="dropdown d-inline">
-								<button class="btn btn-map-filter dropdown-toggle" type="button" id="dropdown-property-zone" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Filter 2
-                            </button>
-								<div class="dropdown-menu" aria-labelledby="dropdown-property-zone">
-									<a class="dropdown-item" href="#">Option 1</a>
-									<a class="dropdown-item" href="#">Option 2</a>
-								</div>
-							</div>
-						</div>
+    
+    <section>
+        <div class="container-fluid bg-services-container">
+            <div class="container-fluid content-container">
+                <div class="our-properties-locations">
+                    <div class="row">
+                        <div class="col-12 mb-5">
+                            <h1 class="general-subtitle">Location Selector</h1>
+                            <hr class="my-3 divider-short-light">
+                        </div>
+                    </div>
 
 
+                    <div class="row">
+                        <div class="col-12 col-lg-6">
 
-						<!-- ....  Locations Map .... -->
+                            <!-- ....  Locations Selector .... -->
 
-						<div id="map" class="locations-map"></div>
-						<script>
-							function initMap() {                        
-						                        var airali = {lat: 14.601815, lng: -90.510100};
-                                                var insigne = {lat: 14.582959, lng: -90.485643};                        
-						                        var o2 = {lat: 14.562634, lng: -90.466841};
-                                                var map = new google.maps.Map(
-						                            document.getElementById('map'), {zoom: 13, center: insigne});                        
-						                        var marker = new google.maps.Marker({position: airali, map: map});
-                                                var marker2 = new google.maps.Marker({position: insigne, map: map});
-						                        var marker3 = new google.maps.Marker({position: o2, map: map});
-                                                }
-						</script>
+                            <h2 class="display-5 general-subtitle-light">Property Map</h2>
+                            <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum, ab!</p>
+                            <div class="d-block">
+                                <div class="dropdown d-inline">
+                                    <button class="btn btn-map-filter dropdown-toggle" type="button" id="dropdown-property-type" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Type
+                                </button>
+                                    <div class="dropdown-menu" aria-labelledby="dropdown-property-type">
+                                        <a class="dropdown-item" href="#">Residential</a>
+                                        <a class="dropdown-item" href="#">Workspace</a>
+                                    </div>
+                                </div>
+                                <div class="dropdown d-inline">
+                                    <button class="btn btn-map-filter dropdown-toggle" type="button" id="dropdown-property-zone" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Filter 2
+                                </button>
+                                    <div class="dropdown-menu" aria-labelledby="dropdown-property-zone">
+                                        <a class="dropdown-item" href="#">Option 1</a>
+                                        <a class="dropdown-item" href="#">Option 2</a>
+                                    </div>
+                                </div>
+                            </div>
 
-						<script async defer
-							src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB0cJYvM7cpR-oAzJsUPNnKwHJeHaDkqNI&callback=initMap">
-						</script>
 
-					</div>
 
-					<!-- .... Selected Property Card .... -->
+                            <!-- ....  Locations Map .... -->
 
-					<div class="col-12 col-lg-6 pt-4 mt-auto">
-						<div class="selected-property-card">
-							<h4 class="display-5 general-subtitle-dark">(Selected Property Name)</h4>
-							<p class="mb-4"> Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <div id="map" class="locations-map"></div>
+                            <script>
+                                function initMap() {                        
+                                                    var airali = {lat: 14.601815, lng: -90.510100};
+                                                    var insigne = {lat: 14.582959, lng: -90.485643};                        
+                                                    var o2 = {lat: 14.562634, lng: -90.466841};
+                                                    var map = new google.maps.Map(
+                                                        document.getElementById('map'), {zoom: 13, center: insigne});                        
+                                                    var marker = new google.maps.Marker({position: airali, map: map});
+                                                    var marker2 = new google.maps.Marker({position: insigne, map: map});
+                                                    var marker3 = new google.maps.Marker({position: o2, map: map});
+                                                    }
+                            </script>
 
-							<div class="col-12 mx-auto image-carrousel">
-								<div id="carousel3-indicators" class="carousel slide" data-ride="carousel">
-									<ol class="carousel-indicators">
-										<li data-target="#carousel3-indicators" data-slide-to="0" class="active"></li>
-										<li data-target="#carousel3-indicators" data-slide-to="1"></li>
-										<li data-target="#carousel3-indicators" data-slide-to="2"></li>
-									</ol>
-									<div class="carousel-inner">
-										<div class="carousel-item active">
-											<img src="./assets/images/carrousel/residential_1.jpg" class="d-block w-100" alt="Apartment Building">
-		                                                            </div>
-											<div class="carousel-item">
-												<img src="./assets/images/carrousel/residential_2.jpg" class="d-block w-100" alt="Office Building">
-		                                                            </div>
-												<div class="carousel-item">
-													<img src="./assets/images/carrousel/residential_3.jpg" class="d-block w-100" alt="Apartment Building">
-		                                                            </div>
-												</div>
-												<a class="carousel-control-prev" href="#carousel3-indicators"
-													role="button" data-slide="prev">
-													<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-													<span class="sr-only">Previous</span>
-												</a>
-												<a class="carousel-control-next" href="#carousel3-indicators"
-													role="button" data-slide="next">
-													<span class="carousel-control-next-icon" aria-hidden="true"></span>
-													<span class="sr-only">Next</span>
-												</a>
-											</div>
-										</div>
-										<div class="property-info-item">
-											<div class="key">
-												<i class="far fa-building fa-fw"></i>
-												<span class="uppercase">
-										Project:
-									</span>
-											</div>
-											<div class="value">
-												<p>
-													Evergreen Building
-												</p>
-											</div>
-										</div>
-										<div class="property-info-item">
-											<div class="key">
-												<i class="fas fa-map-marker-alt fa-fw"></i>
-												<span class="uppercase">
-										Address:
-									</span>
-											</div>
-											<div class="value">
-												<p>
-													123 Street, 01001 Oakland City
-												</p>
-											</div>
-										</div>
-										<div class="property-info-item">
-											<div class="key">
-												<i class="fas fa-ruler-combined fa-fw"></i>
-												<span class="uppercase">
-										Area:
-									</span>
-											</div>
-											<div class="value">
-												<p>
-													100 m2
-												</p>
-											</div>
-										</div>
-										<div class="property-info-item">
-											<div class="key">
-												<i class="fas fa-door-open fa-fw"></i>
-												<span class="uppercase">
-										Rooms:
-									</span>
-											</div>
-											<div class="value">
-												<p>
-													3
-												</p>
-											</div>
-										</div>
-										<div style="text-align:center"><a class="btn btn-lg btn-reserve" href="#"
-												role="button">Reserve now</a></div>
-									</div>
-								</div>
+                            <script async defer
+                                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB0cJYvM7cpR-oAzJsUPNnKwHJeHaDkqNI&callback=initMap">
+                            </script>
 
-							</div>
-			</section>
-		</div>
-	</div>
+                        </div>
 
+                        <!-- .... Selected Property Card .... -->
+
+                        <div class="col-12 px-0 px-md-4 col-lg-6 pt-4 mt-auto">
+                            <div class="selected-property-card px-0 px-md-4 ">
+                                <h4 class="display-5 general-subtitle-dark properties-description">(Selected Property Name)</h4>
+                                <p class="mb-4 properties-description"> Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+                                <div class="col-12 px-0 mx-auto image-carrousel">
+                                    <div id="carousel3-indicators" class="carousel slide" data-ride="carousel">
+                                        <ol class="carousel-indicators">
+                                            <li data-target="#carousel3-indicators" data-slide-to="0" class="active"></li>
+                                            <li data-target="#carousel3-indicators" data-slide-to="1"></li>
+                                            <li data-target="#carousel3-indicators" data-slide-to="2"></li>
+                                        </ol>
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <img src="./assets/images/carrousel/residential_1.jpg" class="d-block w-100" alt="Apartment Building">
+                                                                        </div>
+                                                <div class="carousel-item">
+                                                    <img src="./assets/images/carrousel/residential_2.jpg" class="d-block w-100" alt="Office Building">
+                                                                        </div>
+                                                    <div class="carousel-item">
+                                                        <img src="./assets/images/carrousel/residential_3.jpg" class="d-block w-100" alt="Apartment Building">
+                                                                        </div>
+                                                    </div>
+                                                    <a class="carousel-control-prev" href="#carousel3-indicators"
+                                                        role="button" data-slide="prev">
+                                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                        <span class="sr-only">Previous</span>
+                                                    </a>
+                                                    <a class="carousel-control-next" href="#carousel3-indicators"
+                                                        role="button" data-slide="next">
+                                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                        <span class="sr-only">Next</span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="property-info-item">
+                                                <div class="key">
+                                                    <i class="far fa-building fa-fw"></i>
+                                                    <span class="uppercase">
+                                            Project:
+                                        </span>
+                                                </div>
+                                                <div class="value">
+                                                    <p>
+                                                        Evergreen Building
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="property-info-item">
+                                                <div class="key">
+                                                    <i class="fas fa-map-marker-alt fa-fw"></i>
+                                                    <span class="uppercase">
+                                            Address:
+                                        </span>
+                                                </div>
+                                                <div class="value">
+                                                    <p>
+                                                        123 Street, 01001 Oakland City
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="property-info-item">
+                                                <div class="key">
+                                                    <i class="fas fa-ruler-combined fa-fw"></i>
+                                                    <span class="uppercase">
+                                            Area:
+                                        </span>
+                                                </div>
+                                                <div class="value">
+                                                    <p>
+                                                        100 m2
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="property-info-item">
+                                                <div class="key">
+                                                    <i class="fas fa-door-open fa-fw"></i>
+                                                    <span class="uppercase">
+                                            Rooms:
+                                        </span>
+                                                </div>
+                                                <div class="value">
+                                                    <p>
+                                                        3
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div style="text-align:center"><a class="btn btn-lg btn-reserve" href="#"
+                                                    role="button">Reserve now</a></div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 	<!-- ....... Footer ...... -->
 
@@ -472,7 +471,24 @@
 		</div>
 	</footer>
 
-	<!-- ....... JS For Bootstrap ...... -->
+	<!-- ...... JS For Navbar ...... -->
+
+	<script>
+		window.onscroll = function() {makeSticky()};    
+	
+	                var navbar = document.getElementById("sticky-nav-menu-small-screen");
+	                var sticky = navbar.offsetTop;
+	
+	                function makeSticky() {
+	                    if (window.pageYOffset >= sticky) {
+	                        navbar.classList.add("sticky")
+	                    } else {
+	                        navbar.classList.remove("sticky");
+	                    }
+	                }
+	</script>
+    
+    <!-- ...... JS For Bootstrap ...... -->
 
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
 		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">

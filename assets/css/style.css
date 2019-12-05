@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700|Open+Sans:100,200,300,400,500,600,700|');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,400,700|Open+Sans:200,300,400,700|');
 
 body {
     font-family: 'Open Sans', sans-serif;
@@ -22,7 +22,6 @@ Color Palette
 
 .bg-nav-menu-list {
     background-color: #ece3e8;
-    opacity: 0.9;
     color: #1b1423;
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
@@ -40,16 +39,11 @@ Color Palette
     background: url("../images/background_image11.jpg");
 }
 
-.bg-nav-container {
-    top: 0;
-    left: 0;
+.bg-big-container {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
 }
 
 .bg-services-container {
@@ -63,7 +57,7 @@ Color Palette
 }
 
 .deep-taupe-color{
-background-color: rgba(119, 76, 96, 0.2);
+    background-color: rgba(119, 76, 96, 0.2);
 }
 
 .deep-puce-color {
@@ -79,6 +73,10 @@ background-color: rgba(119, 76, 96, 0.2);
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+
+.color-opaque-overlay-short {
+    height: 40%;
 }
 
 .intersection-container {
@@ -134,9 +132,23 @@ background-color: rgba(119, 76, 96, 0.2);
     color: #fafafa;
 }
 
+.big-subtitle {
+    font-size
+}
+
+.bold-weight    {
+    font-weight: 700;
+}
+
 .content-container {
     padding-top: 70px;
     padding-bottom: 70px;
+}
+
+.smooth-transition {
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
 }
 
 /*--------------------------------------------Dividers*/
@@ -249,25 +261,26 @@ background-color: rgba(119, 76, 96, 0.2);
     padding: 0px;
 }
 
-.header-logo {
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-}
-.header-slogan {
-    margin-top: 2em;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 20px;
-    font-weight: 300;
-    color: #3f3e40;
+#sticky-nav-menu-small-screen {
+    overflow: hidden;
+    z-index: 2;
 }
 
-.navigation-list-dark li a {
-    background-color: #ece3e8;
-    opacity: 0.9;
-    color: #1b1423;
-    text-transform: uppercase;
-    font-family: 'Montserrat', sans-serif;
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.header-logo {
+    margin-top: 0.5em;
+}
+
+.header-slogan {
+    margin-top: 3em;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #3f3e40;
 }
 
 .nav-link {
@@ -326,7 +339,7 @@ background-color: rgba(119, 76, 96, 0.2);
     padding-right: 30px;
 }
 
-.about-us-container span {
+.our-st-title {
     font-size: 25px;
 }
 
@@ -440,15 +453,17 @@ background-color: rgba(119, 76, 96, 0.2);
 
 }
 
-.property-info-item .key,
 .property-info-item .value {
-    padding-right: 5px;
+    padding-right: 0px;
+    padding-left: 0px;
     display: inline-block;
 }
 
 .property-info-item .key {
+    display: inline-block;
     width: 40%;
     margin-right: 10px;
+    margin-left: 10px;
     padding-top: 2px;
     vertical-align: top;
 }
@@ -518,6 +533,12 @@ footer {
 /*--------------------------------------------Media Queries */
 
 /*-----------Tablet (md) */
+@media (min-width: 576px) {
+    .header-slogan {
+        font-size: 20px;
+    }
+}
+/*-----------Tablet (md) */
 
 @media(min-width: 768px) {
     .header-logo {
@@ -527,6 +548,7 @@ footer {
     .header-slogan {
     margin-top: 2em;
     font-size: 25px;
+    font-weight: 300;
     }
 
     .logo-overlay {
@@ -570,12 +592,12 @@ footer {
 /*-----------XX large (xxl) */
 
 @media(min-width: 1440px) {
-    .md-navigation-list li a {
+    .bg-nav-menu-list-list {
     font-size: 40px ;
     }
 
     .header-slogan {
-    font-size: 40px;
+    font-size: 3em;
     }
 
     .selected-property-card {

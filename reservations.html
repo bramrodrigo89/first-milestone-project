@@ -31,35 +31,34 @@
 
 			<!-- ..... Expand Nav Menu (Small screen) .... -->
 
-			<div class="container-fluid bg-nav-menu-list">
+			<div class="container-fluid bg-nav-menu-list" id="sticky-nav-menu-small-screen">
 				<nav class="navbar navbar-expand-md navbar-light sm-block d-md-none">
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
 	                    <span class="navbar-toggler-icon"></span>
 	                </button>
-					<div class="collapse navbar-collapse bg-nav-menu-list navigation-list-dark" id="navbarToggler">
+					<div class="collapse navbar-collapse bg-nav-menu-list" id="navbarToggler">
 						<ul class="nav d-md-none mr-auto mt-2">
 							<li class="nav-item">
-								<a class="nav-link mx-3 my-2" href="index.html#about-us-jumbotron">About Us</a>
+								<a class="nav-link mx-3 my-2 bg-nav-menu-list" href="index.html#about-us-jumbotron">About Us</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link mx-3 my-2" href="properties.html">Properties</a>
+								<a class="nav-link mx-3 my-2 bg-nav-menu-list" href="properties.html">Properties</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link mx-3 my-2" href="reservations.html">Reservations</a>
+								<a class="nav-link mx-3 my-2 bg-nav-menu-list" href="reservations.html">Reservations</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link mx-3 my-2" href="contact.html">Contact</a>
+								<a class="nav-link mx-3 my-2 bg-nav-menu-list" href="contact.html">Contact</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link mx-3 my-2" href="user-log-in.html">Log In</a>
+								<a class="nav-link mx-3 my-2 bg-nav-menu-list" href="user-log-in.html">Log In</a>
 							</li>
 						</ul>
 					</div>
 				</nav>
 			</div>
 
-
-		<div class="container-fluid cityscape3 bg-nav-container">
+		<div class="container-fluid cityscape3 bg-big-container smooth-transition">
 			<div class="deep-puce-color color-opaque-overlay">&nbsp;</div>
 
 			<!-- ..... Log-in Banner .... -->
@@ -93,30 +92,31 @@
 					<div class="row">
 						<div class="col-8">
 							<a href="index.html"><img src=" ./assets/images/koller_logo_transparent.png"
-								class="header-logo rounded mx-auto d-block" alt="Company logo" style="width:100%"></a>
+								class="header-logo smooth-transition rounded mx-auto d-block" alt="Company logo" style="width:100%"></a>
 						</div>
-						<div class="col-4 header-slogan">Our Properties,<br />Your Success</div>
+						<div class="col-4 header-slogan smooth-transition">Our <span class="bold-weight">Properties</span>,<br />Your <span class="bold-weight">Success</span></div>
 					</div>
 				</div>
-				<div class="col-3 d-none d-md-block pr-0 offset-1 navigation-list-dark">
+				<div class="col-3 d-none d-md-block pr-0 offset-1 smooth-transition">
 					<ul class="nav flex-column mt-4">
 						<li class="nav-item">
-							<a class="nav-link" href="index.html#about-us-jumbotron">About us</a>
+							<a class="nav-link bg-nav-menu-list" href="index.html#about-us-jumbotron">About us</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="properties.html">Properties</a>
+							<a class="nav-link bg-nav-menu-list" href="properties.html">Properties</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="reservations.html">Reservations</a>
+							<a class="nav-link bg-nav-menu-list" href="reservations.html">Reservations</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="contact.html">Contact</a>
+							<a class="nav-link bg-nav-menu-list" href="contact.html">Contact</a>
 						</li>
 					</ul>
 				</div>
 			</div>
 		</div>
-	</header>
+	
+    </header>
 
 
 	<!-- ....... Section: How to make reservations? ...... -->
@@ -127,8 +127,8 @@
 
 				<div class="col-12 intro-text">
 			
-					<h2 class="properties-subtitle general-subtitle pl-4">How to reserve our properties?</h2>
-					<p class="lead pl-4"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum doloribus quam
+					<h2 class="properties-subtitle general-subtitle pl-1 pl-md-4">How to reserve our properties?</h2>
+					<p class="lead pl-1 pl-md-4"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum doloribus quam
 						quasi
 						eos inventore facere modi natus, laboriosam repellendus distinctio qui, provident earum velit
 						incidunt ab a placeat perferendis obcaecati?</p>
@@ -197,17 +197,17 @@
 				
 					<!-- .... Selected Property Card .... -->
 				
-					<div class="col-12 col-lg-6 pt-0 mb-5 mt-lg-5">
-						<div class="selected-property-card">
-							<h4 class="display-5 general-subtitle-dark">(Selected Property Name)</h4>
-							<p class="mb-4"> Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+					<div class="col-12 px-0 px-md-4 col-lg-6 pt-0 mb-5 mt-lg-5">
+						<div class="selected-property-card px-0 px-md-4">
+							<h4 class="display-5 general-subtitle-dark properties-description">(Selected Property Name)</h4>
+							<p class="mb-4 properties-description"> Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
 				
 							<!-- .... Selected Property Image Carrousel + Location Map .... -->
 
 							<div class="row">
 								<div class="col-12 col-md-6">
 
-									<div class="col-12 image-carrousel-small">
+									<div class="col-12 px-0 image-carrousel-small">
 										<div id="carousel3-indicators" class="carousel slide" data-ride="carousel">
 											<ol class="carousel-indicators">
 												<li data-target="#carousel3-indicators" data-slide-to="0" class="active">
@@ -240,7 +240,7 @@
 				
 												</div>
 				
-												<div class="col-12">
+												<div class="col-12 px-0">
 				
 													<div id="map" class="locations-map-small"></div>
 													<script>
@@ -720,7 +720,24 @@
 		</div>
 	</footer>
 
-	<!-- ....... JS For Bootstrap ...... -->
+	<!-- ...... JS For Navbar ...... -->
+
+	<script>
+		window.onscroll = function() {makeSticky()};    
+	
+	                var navbar = document.getElementById("sticky-nav-menu-small-screen");
+	                var sticky = navbar.offsetTop;
+	
+	                function makeSticky() {
+	                    if (window.pageYOffset >= sticky) {
+	                        navbar.classList.add("sticky")
+	                    } else {
+	                        navbar.classList.remove("sticky");
+	                    }
+	                }
+	</script>
+    
+    <!-- ...... JS For Bootstrap ...... -->
 
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
 		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">

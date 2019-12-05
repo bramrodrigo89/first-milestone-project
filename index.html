@@ -31,35 +31,34 @@
 
 			<!-- ..... Expand Nav Menu (Small screen) .... -->
 
-			<div class="container-fluid bg-nav-menu-list">
+			<div class="container-fluid bg-nav-menu-list" id="sticky-nav-menu-small-screen">
 				<nav class="navbar navbar-expand-md navbar-light sm-block d-md-none">
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
 	                    <span class="navbar-toggler-icon"></span>
 	                </button>
-					<div class="collapse navbar-collapse bg-nav-menu-list navigation-list-dark" id="navbarToggler">
+					<div class="collapse navbar-collapse bg-nav-menu-list" id="navbarToggler">
 						<ul class="nav d-md-none mr-auto mt-2">
 							<li class="nav-item">
-								<a class="nav-link mx-3 my-2" href="index.html#about-us-jumbotron">About Us</a>
+								<a class="nav-link mx-3 my-2 bg-nav-menu-list" href="index.html#about-us-jumbotron">About Us</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link mx-3 my-2" href="properties.html">Properties</a>
+								<a class="nav-link mx-3 my-2 bg-nav-menu-list" href="properties.html">Properties</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link mx-3 my-2" href="reservations.html">Reservations</a>
+								<a class="nav-link mx-3 my-2 bg-nav-menu-list" href="reservations.html">Reservations</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link mx-3 my-2" href="contact.html">Contact</a>
+								<a class="nav-link mx-3 my-2 bg-nav-menu-list" href="contact.html">Contact</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link mx-3 my-2" href="user-log-in.html">Log In</a>
+								<a class="nav-link mx-3 my-2 bg-nav-menu-list" href="user-log-in.html">Log In</a>
 							</li>
 						</ul>
 					</div>
 				</nav>
 			</div>
 
-
-		<div class="container-fluid cityscape1 bg-nav-container">
+		<div class="container-fluid cityscape1 bg-big-container smooth-transition">
 			<div class="deep-puce-color color-opaque-overlay">&nbsp;</div>
 
 			<!-- ..... Log-in Banner .... -->
@@ -93,47 +92,52 @@
 					<div class="row">
 						<div class="col-8">
 							<a href="index.html"><img src=" ./assets/images/koller_logo_transparent.png"
-								class="header-logo rounded mx-auto d-block" alt="Company logo" style="width:100%"></a>
+								class="header-logo smooth-transition rounded mx-auto d-block" alt="Company logo" style="width:100%"></a>
 						</div>
-						<div class="col-4 header-slogan">Our Properties,<br />Your Success</div>
+						<div class="col-4 header-slogan smooth-transition">Our <span class="bold-weight">Properties</span>,<br />Your <span class="bold-weight">Success</span></div>
 					</div>
 				</div>
-				<div class="col-3 d-none d-md-block pr-0 offset-1 navigation-list-dark">
+				<div class="col-3 d-none d-md-block pr-0 offset-1 smooth-transition">
 					<ul class="nav flex-column mt-4">
 						<li class="nav-item">
-							<a class="nav-link" href="index.html#about-us-jumbotron">About us</a>
+							<a class="nav-link bg-nav-menu-list" href="index.html#about-us-jumbotron">About us</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="properties.html">Properties</a>
+							<a class="nav-link bg-nav-menu-list" href="properties.html">Properties</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="reservations.html">Reservations</a>
+							<a class="nav-link bg-nav-menu-list" href="reservations.html">Reservations</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="contact.html">Contact</a>
+							<a class="nav-link bg-nav-menu-list" href="contact.html">Contact</a>
 						</li>
 					</ul>
 				</div>
 			</div>
 		</div>
-	</header>
-
+	
+    </header>
 
 		<!-- ....... Section: About Us ...... -->
-		
+	
+    <section>	
+
 		<div class="container-fluid intro-container content-container bg-intro-container">
 			<div class="row">
 
-				<div class="col-12 col-md-6 pl-5 intro-text">
-					<section>
+				<div class="col-12 col-md-6 pl-5 intro-text">		
 						<h2 class="display-4 general-subtitle">Koller</h2>
-						<p class="lead"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta magnam autem eius. Illo
-							eligendi rerum odit voluptas impedit dolor sed, eveniet praesentium accusantium similique blanditiis
-							tempora provident sit saepe. Quae!</p>
+						<p class="lead mb-4"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. In sed incidunt perspiciatis alias veritatis rem, unde dolor saepe ex doloremque!</p>
+                        
+                        <p> <span class="general-subtitle our-st-title">Our Story: </span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, eligendi et repudiandae animi consequatur reprehenderit optio dolores ut obcaecati deleniti cupiditate quasi rerum eveniet.</p>
+
                         <img src="./assets/images/white_logo_transparent_small.png" class="rounded mx-auto d-block white-small-logo" alt="Company logo" style="width:20%">
 						<hr class="my-3 divider-short-light">
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, nihil.</p>
-					</section>
+                        <blockquote>
+						<p><i class="fa fa-quote-left fa-2x fa-pull-left fa-border" aria-hidden="true"></i>
+                            We will go beyond borders, farther than those we know today... And those we will find tomorrow&mdash; So that those who we cannot reach now will know of us in the future."</p>
+                        <p class="general-subtitle our-st-title">- Our Founder</p>
+                        </blockquote>
 				</div>
 
 				<div class="col-12 col-md-6 image-carrousel">
@@ -167,33 +171,37 @@
 
 			</div>
 		</div>
+    
 
         <a id="about-us-jumbotron"></a>
 		<div class="container-fluid about-us-container">
 			<div class="logo-overlay">&nbsp;</div>
 			<div class="deep-puce-color color-opaque-overlay">&nbsp;</div>
 			<div class="row">
-
 				
 					<div class="col-12 col-md-8 mt-md-5 ml-auto">
-						<section class="content-light-jumbotron">
+						<div class="content-light-jumbotron">
 							<h2 class="display-4 general-subtitle-dark">About us</h2>
-							<p> <span class="general-subtitle-dark">Our Mission: </span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, eligendi et repudiandae animi consequatur reprehenderit optio dolores ut obcaecati deleniti cupiditate quasi rerum eveniet.</p>
-                            <p> <span class="general-subtitle-dark">Our Vision: </span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, eligendi et repudiandae animi consequatur reprehenderit optio dolores ut obcaecati deleniti cupiditate quasi rerum eveniet.</p>
+							<p> <span class="general-subtitle-dark our-st-title">Our Mission: </span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, eligendi et repudiandae animi consequatur reprehenderit optio dolores ut obcaecati deleniti cupiditate quasi rerum eveniet.</p>
+                            <p> <span class="general-subtitle-dark our-st-title">Our Vision: </span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, eligendi et repudiandae animi consequatur reprehenderit optio dolores ut obcaecati deleniti cupiditate quasi rerum eveniet.</p>
 							<hr class="my-4 divider-long-dark">
 							<p class="d-none d-sm-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, nihil.
 							</p>
 							<div style="text-align:center"><a class="btn btn-violet btn-lg" href="#" role="button">Contact</a></div>
-						</section>
+						</div>
 					</div>
 			</div>
 		</div>
-        
+
+    </section>   
+
     <!-- ....... Section: Our Services ...... -->
 
-    <div class="container-fluid bg-services-container">
+    <section>
+
+        <div class="container-fluid bg-services-container">
             <div class="container-fluid content-container">
-                <section class="services">
+                <div class="services">
                     <div class="row">
                         <div class="col-12 mb-5">
                             <h2 class="general-subtitle">Our Services</h2>
@@ -223,9 +231,11 @@
                             </div>
                         </div>
                     </div>
-                </section>
+                </div>
+            </div>
         </div>
-    </div>
+
+    </section>
 
 
 
@@ -297,7 +307,24 @@
 		</div>
 	</footer>
 
-	<!-- ...... JS For Bootstrap ...... -->
+	<!-- ...... JS For Navbar ...... -->
+
+	<script>
+		window.onscroll = function() {makeSticky()};    
+	
+	                var navbar = document.getElementById("sticky-nav-menu-small-screen");
+	                var sticky = navbar.offsetTop;
+	
+	                function makeSticky() {
+	                    if (window.pageYOffset >= sticky) {
+	                        navbar.classList.add("sticky")
+	                    } else {
+	                        navbar.classList.remove("sticky");
+	                    }
+	                }
+	</script>
+    
+    <!-- ...... JS For Bootstrap ...... -->
 
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
 		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
