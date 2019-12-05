@@ -169,6 +169,11 @@ Color Palette
 
 /*--------------------------------------------Buttons*/
 
+.navbar-toggler {
+    font-size: 2rem;
+    border: 5px solid black;
+
+}
 .btn-violet {
     color: #EACDC2;
     background-color: #372549;
@@ -273,11 +278,13 @@ Color Palette
 }
 
 .header-logo {
-    margin-top: 0.5em;
+    margin-top: 2em;
+    visibility: hidden;
 }
 
 .header-slogan {
-    margin-top: 3em;
+    font-size: 25px;
+    margin-top: 5em;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     color: #3f3e40;
@@ -294,6 +301,7 @@ Color Palette
 
 .navbar {
     padding: 1rem 1rem;
+    clear: none;
 }
 
 .logo {
@@ -357,10 +365,14 @@ Color Palette
 }
 
 .content-light-jumbotron {
-    padding: 2rem 2rem;
+    padding: 1rem 1rem;
     background-color: rgba(236, 227, 232, 1.0);
     color: #372549;
     font-family: 'Open Sans', sans-serif;
+}
+
+.content-light-jumbotron h2 {
+    font-size: 2em;
 }
 
 
@@ -534,20 +546,19 @@ footer {
 
 /*-----------Tablet (md) */
 @media (min-width: 576px) {
-    .header-slogan {
-        font-size: 20px;
-    }
+
 }
 /*-----------Tablet (md) */
 
 @media(min-width: 768px) {
     .header-logo {
+    visibility: visible;
     margin-top: 50px;
     }
 
     .header-slogan {
+    font-size: 40px;
     margin-top: 2em;
-    font-size: 25px;
     font-weight: 300;
     }
 
