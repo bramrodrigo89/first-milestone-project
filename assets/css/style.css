@@ -44,6 +44,8 @@ Color Palette
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+    position: relative;
+    display: flex;
 }
 
 .bg-services-container {
@@ -67,7 +69,7 @@ Color Palette
 .color-opaque-overlay {
     position: absolute;
     left: 0;
-    height: 100%;
+    height: 100vh;
     width: 100%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -170,7 +172,7 @@ Color Palette
 /*--------------------------------------------Buttons*/
 
 .navbar-toggler {
-    font-size: 2rem;
+    font-size: 1.2rem;
     border: 5px solid black;
 
 }
