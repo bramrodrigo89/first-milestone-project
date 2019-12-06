@@ -137,7 +137,7 @@
 
 				<div class="col-12 intro-text">
 			
-					<h2 class="properties-subtitle general-subtitle pl-1 pl-md-4">How to reserve our properties?</h2>
+					<h2 class="properties-subtitle general-subtitle pl-1 pl-md-4">How to <span class="bold-weight">reserve</span> our <span class="bold-weight">properties?</span></h2>
 					<p class="lead pl-1 pl-md-4"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum doloribus quam
 						quasi
 						eos inventore facere modi natus, laboriosam repellendus distinctio qui, provident earum velit
@@ -187,7 +187,7 @@
 	<!-- ....... Intersection: Cityscape background ...... -->
 
 	<div class="container-fluid intersection-container">
-		<div class="deep-puce-color-opaque-overlay">&nbsp;</div>
+		<div class="deep-puce-color color-opaque-overlay color-opaque-overlay-short">&nbsp;</div>
 	</div>
 
 	<!-- ....... Section: Reserve a Property ...... -->
@@ -197,7 +197,7 @@
 			<section>
 				<div class="row align-center">
 					<div class="col-12 mb-5">
-						<h1 class="general-subtitle">Reserve a property</h1>
+						<h1 class="general-subtitle"><span class="bold-weight">Reserve</span> a property</h1>
 						<hr class="my-3 divider-short-light">
 					</div>
 				</div>
@@ -209,7 +209,7 @@
 				
 					<div class="col-12 px-0 px-md-4 col-lg-6 pt-0 mb-5 mt-lg-5">
 						<div class="selected-property-card px-0 px-md-4">
-							<h4 class="display-5 general-subtitle-dark properties-description">(Selected Property Name)</h4>
+							<h4 class="display-5 general-subtitle-dark properties-description bold-weight">(Property Name)</h4>
 							<p class="mb-4 properties-description"> Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
 				
 							<!-- .... Selected Property Image Carrousel + Location Map .... -->
@@ -271,7 +271,7 @@
 				
 											<!-- .... Selected Property Information .... -->
 				
-											<div class="col-12 col-md-6 mt-5">
+											<div class="col-12 col-md-6 px-3 px-md-0 mt-5">
 				
 												<div class="property-info-item">
 													<div class="key">
@@ -332,11 +332,22 @@
 	
 					<!-- ....... Request Form ...... -->
 	
-					<div class="col-12 col-lg-6 pt-0 mb-5">
-						<h2 class="display-5 general-subtitle-light">Reservation Form</h2>
+					<div class="col-12 col-lg-6 pt-0 px-md-2 mb-5">
+						<h2 class="display-5 general-subtitle-light">Reservation <span class="bold-weight">Form</span></h2>
 						<p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum, ab!</p>
 					
 						<form>
+                            <div class="form-row">
+								<div class="form-group col-md-6">
+									<label for="input-start-date">Desired Start Date</label>
+                                    <input type="date" class="form-control" id='input-start-date' placeholder="dd/mm/yyyy" required>
+						        </div>
+									<div class="form-group col-md-6">
+                                        <label for="input-final-date">Final Date</label>
+										<input type="date" class="form-control" id="input-final-date" placeholder="dd/mm/yyyy" required>
+						            </div>
+							</div>
+                            <p> Enter your personal information below so we can prepare your next contract!</p>                            </p>
 							<div class="form-row">
 								<div class="form-group col-md-6">
 									<label for="input-first-name">First Name</label>
@@ -349,8 +360,8 @@
 							</div>
 							<div class="form-row">
 								<div class="form-group col-md-6">
-									<label for="input-email">Email</label>
-									<input type="email" class="form-control" id="input-email">
+									<label for="input-email">Email Address</label>
+									<input type="email" class="form-control" id="input-email" placeholder="john.smith@example.com" required>
 								</div>
 							    <div class="form-group col-md-6">
 									<label for="input-country">Country</label>
@@ -618,18 +629,11 @@
 							<div class="form-row">
 								<div class="form-group col-md-6">
 								    <label for="input-city">City</label>
-								    <input type="text" class="form-control" id="input-city">
-							    </div>
-							    <div class="form-group col-md-4">
-								    <label for="inputState">State</label>
-								    <select id="inputState" class="form-control">
-									    <option selected>Choose...</option>
-									    <option>...</option>
-								    </select>
+								    <input type="text" class="form-control" id="input-city" placeholder="New York">
 							    </div>
 							    <div class="form-group col-md-2">
 								    <label for="inputZip">Zip</label>
-								    <input type="text" class="form-control" id="inputZip">
+								    <input type="text" class="form-control" id="inputZip" placeholder="10011">
 							    </div>
 							</div>
                             
@@ -643,7 +647,7 @@
 								<div class="form-check">
 									<input class="form-check-input" type="checkbox" id="email-copy">
 									<label class="form-check-label" for="email-copy">
-										Sendy me a copy by e-mail
+										Sendy a copy to my e-mail
 							        </label>
 								</div>
 							</div>
@@ -675,7 +679,7 @@
 			</div>
 
 			<div class="col-sm-4 pl-5 py-3">
-				<h5 class="uppercase">Menu</h5>
+				<h5 class="uppercase mb-4">Menu</h5>
 				<ul class="nav flex-column footer-navigation-list">
 					<li class="nav-item">
 						<a class="nav-link pl-0" href="index.html#about-us-jumbotron">About us</a>
@@ -687,10 +691,31 @@
 						<a class="nav-link pl-0" href="reservations.html">Reservations</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link pl-0" href="contact.html">Contact</a>
+						<a class="nav-link pl-0"><button type="button" data-toggle="modal" data-target="#ContactModal">Contact</button></a>
 					</li>
 				</ul>
 			</div>
+
+            <!-- Contact Modal -->
+            <div class="modal fade" id="ContactModal" tabindex="-1" role="dialog" aria-labelledby="ContactModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="ContactModalLabel">Contact Us</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Enter your request in the following form
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Submit</button>
+                </div>
+                </div>
+            </div>
+            </div>
 
 			<div class="col-sm-4 pl-5 py-3">
 				<h5 class="uppercase">Find us on</h5>
