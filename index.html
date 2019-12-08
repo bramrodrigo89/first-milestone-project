@@ -46,22 +46,22 @@
                         </div>
                     </div>
 
-					<div class="collapse navbar-collapse bg-nav-menu-list" id="navbarToggler">
+					<div class="collapse navbar-collapse" id="navbarToggler">
 						<ul class="nav d-md-none mr-auto mt-2">
-							<li class="nav-item">
-								<a class="nav-link mx-3 my-2 bg-nav-menu-list" href="index.html#about-us-jumbotron">About Us</a>
+							<li class="nav-item nav-menu-item">
+								<a class="nav-link mx-3 my-2" href="index.html#about-us-jumbotron">About Us</a>
 							</li>
-							<li class="nav-item">
-								<a class="nav-link mx-3 my-2 bg-nav-menu-list" href="properties.html">Properties</a>
+							<li class="nav-item nav-menu-item">
+								<a class="nav-link mx-3 my-2" href="properties.html">Properties</a>
 							</li>
-							<li class="nav-item">
-								<a class="nav-link mx-3 my-2 bg-nav-menu-list" href="reservations.html">Reservations</a>
+							<li class="nav-item nav-menu-item">
+								<a class="nav-link mx-3 my-2" href="reservations.html">Reservations</a>
 							</li>
-							<li class="nav-item">
-								<a class="nav-link mx-3 my-2 bg-nav-menu-list" href="contact.html">Contact</a>
+							<li class="nav-item nav-menu-item">
+                                <button type="button" class="nav-link mx-3 my-2" data-toggle="modal" data-target="#ContactModal">Contact</button>
 							</li>
-							<li class="nav-item">
-								<a class="nav-link mx-3 my-2 bg-nav-menu-list" href="user-log-in.html">Log In</a>
+							<li class="nav-item nav-menu-item">
+								<a class="nav-link mx-3 my-2" href="user-log-in.html">Log In</a>
 							</li>
 						</ul>
 					</div>
@@ -100,26 +100,26 @@
 			<div class="row mx-0">
 				<div class="col px-0 mt-md-0">
 					<div class="row mx-0">
-						<div class="col-6 col-md-8 pl-0">
+						<div class="col-2 col-md-8 pl-0">
 							<a href="index.html"><img src=" ./assets/images/koller_logo_transparent.png"
 								class="header-logo smooth-transition rounded mx-auto d-block" alt="Company logo" style="width:100%"></a>
 						</div>
-						<div class="col-6 col-md-4 p-0 header-slogan smooth-transition">Our <span class="bold-weight">Properties</span>,<br />Your <span class="bold-weight">Success</span></div>
+						<div class="col-10 col-md-4 p-0 header-slogan smooth-transition">Our <span class="bold-weight">Properties</span>,<br />Your <span class="bold-weight">Success</span></div>
 					</div>
 				</div>
 				<div class="col-3 d-none d-md-block pr-0 offset-1 smooth-transition">
 					<ul class="nav flex-column mt-4">
 						<li class="nav-item">
-							<a class="nav-link bg-nav-menu-list" href="index.html#about-us-jumbotron">About us</a>
+							<a class="nav-link bg-nav-menu-list nav-menu-item" href="index.html#about-us-jumbotron">About us</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link bg-nav-menu-list" href="properties.html">Properties</a>
+							<a class="nav-link bg-nav-menu-list nav-menu-item" href="properties.html">Properties</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link bg-nav-menu-list" href="reservations.html">Reservations</a>
+							<a class="nav-link bg-nav-menu-list nav-menu-item" href="reservations.html">Reservations</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link bg-nav-menu-list" href="contact.html">Contact</a>
+                            <button type="button" class="nav-link bg-nav-menu-list nav-menu-item" data-toggle="modal" data-target="#ContactModal">Contact</button>
 						</li>
 					</ul>
 				</div>
@@ -198,7 +198,9 @@
                             <hr class="my-4 divider-long-dark">
 							<p class="d-none d-sm-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, nihil.
 							</p>
-							<div style="text-align:center"><a class="btn btn-violet btn-lg" href="#" role="button">Contact</a></div>
+							<div style="text-align:center">
+                                <button type="button" class="btn btn-violet btn-lg" data-toggle="modal" data-target="#ContactModal">Contact</button>
+                            </div>
 						</div>
 					</div>
 			</div>
@@ -224,21 +226,21 @@
                             <div class="services">
                                 <h3 class="general-sub-subtitle"><i class="fas fa-sign d-none d-sm-block"></i>Service 1</h3>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos earum labore quaerat officia quam nemo fugit corrupti corporis est eveniet?</p>
-                                <p><a class="btn btn-sm" href="">Contact</a></p>
+                                <p><a class="btn btn-sm transparent-light-btn" href="">Contact</a></p>
                             </div>
                         </div>
                         <div class="col-12 col-md-6 col-lg-4 mb-5">
                             <div class="services">
                                 <h3 class="general-sub-subtitle"><i class="far fa-building d-none d-sm-block"></i>Service 2</h3>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae odio ipsum tempore quibusdam, rem excepturi. Qui vero quos quae facilis?</p>
-                                <p><a class="btn btn-sm" href="">Reserve now</a></p>
+                                <p><a class="btn btn-sm transparent-light-btn" href="">Reserve now</a></p>
                             </div>
                         </div>
                         <div class="col-12 col-md-6 mx-auto d-lg-block col-lg-4 mb-5">
                             <div class="services">
                                 <h3 class="general-sub-subtitle"><i class="fas fa-home d-none d-sm-block"></i>Service 3</h3>
                                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae numquam laudantium unde sint reiciendis ab iste repellat culpa veritatis amet.</p>
-                                <p><a class="btn btn-sm" href="">Reserve now</a></p>
+                                <p><a class="btn btn-sm transparent-light-btn" href="">Reserve now</a></p>
                             </div>
                         </div>
                     </div>

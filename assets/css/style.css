@@ -23,8 +23,8 @@ Color Palette
 .bg-nav-menu-list {
     background-color: #ece3e8;
     color: #1b1423;
-    text-transform: uppercase;
-    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    border: 0px;
 }
 
 .cityscape1 {
@@ -89,7 +89,7 @@ Color Palette
     background-size: cover;
     display: flex;
 }
-/*--------------------------------------------Special paddings/margins/text*/
+/*--------------------------------------------Subtitles/special padding/transitions*/
 
 .uppercase {
     margin: 0;
@@ -168,7 +168,34 @@ Color Palette
     background-color: #1A1423;
 }
 
-/*--------------------------------------------Buttons*/
+/*-----------------------------------------Buttons/Links*/
+
+.nav-menu-item {
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    border: 0px;
+    color: #1b1423;
+}
+
+.nav-menu-item a {
+    color: #1b1423;
+}
+
+.nav-menu-item button {
+    background-color: transparent;
+}
+
+.nav-menu-item:hover {
+    font-weight: 700;
+    color: black;
+}
+
+.nav-menu-item button:hover {
+    font-weight: 700;
+    color: black;
+    cursor: pointer;
+}
 
 .navbar-toggler {
     font-size: 1.2rem;
@@ -188,8 +215,7 @@ Color Palette
     border-color: #774C60;
 }
 
-
-.services .btn {
+.transparent-light-btn {
     background-color: transparent;
     border-color: #fafafa;
     border-radius: 1rem;
@@ -198,22 +224,7 @@ Color Palette
     color: #fafafa;
 }
 
-.services .btn:hover {
-    background-color: #B75D69;
-    border-color: #B75D69;
-    color: #fafafa;
-}
-
-.properties-description .btn {
-    background-color: transparent;
-    border-color: #fafafa;
-    border-radius: 1rem;
-    min-width: 100px;
-    margin-top: 10px;
-    color: #fafafa;
-}
-
-.properties-description .btn:hover {
+.transparent-light-btn:hover {
     background-color: #B75D69;
     border-color: #B75D69;
     color: #fafafa;
@@ -284,10 +295,10 @@ Color Palette
 }
 
 .header-slogan {
-    font-size: 25px;
+    font-size: 35px;
     margin-top: 4em;
     font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
+    font-weight: 300;
     color: #3f3e40;
 }
 
@@ -560,8 +571,8 @@ footer {
     }
 
     .header-slogan {
-    font-size: 40px;
-    margin-top: 2em;
+    font-size: 30px;
+    margin-top: 10px;
     font-weight: 300;
     }
 
@@ -574,8 +585,8 @@ footer {
     }
 
     .content-light-jumbotron {
-           min-height: 300px;
-           margin-top: 0em;
+    min-height: 300px;
+    margin-top: 0em;
     }
     
     .properties-subtitle {
@@ -583,7 +594,7 @@ footer {
     }
 
     .selected-property-card {
-           min-height: 300px;
+    min-height: 300px;
     }
 }
 
@@ -596,10 +607,10 @@ footer {
     margin-bottom: auto;
     }
     .white-small-logo {
-        width: 10%;
+    width: 10%;
     }
     .locations-map {
-        height: 600px;
+    height: 600px;
     }
 }
 
