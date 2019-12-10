@@ -136,10 +136,6 @@ Color Palette
     color: #fafafa;
 }
 
-.big-subtitle {
-    font-size
-}
-
 .bold-weight    {
     font-weight: 600;
 }
@@ -642,3 +638,4 @@ footer {
     .selected-property-card {
     font-size: 20px;
     }
+}
