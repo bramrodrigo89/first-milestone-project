@@ -3,84 +3,88 @@
 
 Welcome, 
 
-One or two paragraphs providing an overview of your project.
+This project was carried out within the framework of my first Milestone Project for the Full-Stack Web Development Diploma from the Code Institute.  
 
-Essentially, this part is your sales pitch.
+Used technologies include  HTML5, CSS3 and a little of JS mostly from Bootstrap to demonstrate my personal skills and acquired knowledge from this online program. 
 
-Available on GitHub Pages here: https://bramrodrigo89.github.io/first-milestone-project/
+Code was written mostly on my own but a some libraries were taken as well to improve functionality and CSS. 
+
+I will be glad to hear your feedback about your experience using this website. 
+
+website available on GitHub Pages here: https://bramrodrigo89.github.io/first-milestone-project/
  
 ## UX
- 
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
+The main objective was to create a custom website for a landlord company called Koller Investments that rents different properties. The company needed online presence and a presentation card for other companies or even banks that inquiry about Koller Investments. Their current site is hosted on Google Sites (https://inversiones-koller.business.site/) but it is not informative enough.
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+The website also should give customers, the tenants, confidence on what the company can do and its cusomer care. 
+
+This importance for a new website was identified through some User Stories like the following:
+
+- "As a new comer in the city, I would like to know which properties are available at the moment for rent depending on their location. It would be great to have an overview map where I can narrow down my options and reserve the one the option that I like."
+
+- "As a current customer from the company, I would like to know if Koller Investments has other options for office properties available where we can move our office due to expansion. That means information like space is important for us."
+
+- "I am working in a bank granting credits to small companies. I woud like a webiste where I can easily read who they area and what services they offer so I can assess the risk of a new loan."
+
+The website was first designed using a wireframe which can be found on miro.com under this link
+
+https://miro.com/welcomeonboard/pWF4WYfOwQGFlzdkBtYxHZmh2gS7FpBOkM3iJwfwWTvZ1ItsQw8q418dVx18KyjY
+
 
 ## Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+The website is composed by tree main pages among which customers can navigate to find the information they need or achieve the objective that they have. IMPORTANT: At the moment most of the content is shown as generic Lorem Ipsum text but will be corrected as the company provides this infromation!
  
 ### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
+- About-Us and Our-Services Sections - allows users to inform themselves about the company and understand what the company can offer. 
+- Our Properties-Section - provides information about the types of properties that tenants can reserve. 
+- Our Properties-Map - This feature will allow customers to find the property option that best suits their location needs. Location is the main criteria in this city, so they will select those mostly based on that criteria. This feature is partially inabled because the back-end development is missing to make the map interactive. 
+- Reservaton Form - This will enable users to reserve the property of their selection and enter their information to ellaborate a renting contract. 
+- Contact Form - For potential new clients or simply interested individuals who inquiry about the company. 
 
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+In addition, these are the plans for additional features to be implemented in the future:
 
 ### Features Left to Implement
-- Another feature idea
+- Back-end development - Overall this development is still missing to make the map interactive and collect the data from the reservation and contact forms. 
+- Online Tenant Portal - This internet portal is important for current customers to find and manage their renting contracts, browse their payment history, report issues to the company and others. 
 
 ## Technologies Used
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+Languages, frameworks, libraries used to construct this project:
 
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
-
+- HTML5
+- CSS3
+- JavaScript
+- [Bootstrap](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
+    - The project uses **Bootstrap** to simplify giving styles and adding JavaScripts to different elements. Also it is found in the navbar construct, its grid-layout system was used, as well as other elements like modals and carrousels to complement the webiste. 
+- [Google Map JavaScript API](https://developers.google.com/maps/documentation/javascript/tutorial)
+    - The property map was created using **Google Maps** and some markers were added. Personal API Key used. 
+- [ISO Country List - HTML select/dropdown snippet](https://www.freeformatter.com/iso-country-list-html-select.html)
+    - Country list was taken from this library to implement in the reservation form.
+- [Font Awesome Icon Library](https://fontawesome.com/icons?d=gallery)
+    - Icons were imported to provide some visual iconography to information. 
+- [Google Font Library](https://fonts.google.com/)
+    - Imported two different fonts, Open-Sans and Montserrat for texts. 
 
 ## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
-
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+Testing will be peformed when back end developmed is carried out. 
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+This project is available at the moment on GitHub pages only:
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
-
-In addition, if it is not obvious, you should also describe how to run your code locally.
-
+https://bramrodrigo89.github.io/first-milestone-project/
 
 ## Credits
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+- Text at the moment is generic in most sections, but will be replaced by real information from the company. 
 
 ### Media
-- The photos used in this site were obtained from ...
+- The photos used in this site were all taken by myself and I have full ownership on them. 
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- I received inspiration for this project from my family. 
