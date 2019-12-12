@@ -29,99 +29,51 @@
 
 	<header>
 
-			<!-- ..... Expand Nav Menu (Small screen) .... -->
+		<!-- ..... Expand Nav Menu .... -->
 
-			<div class="bg-nav-menu-list" id="sticky-nav-menu-small-screen">
-				<nav class="navbar navbar-expand-md navbar-light sm-block d-md-none">
-                    
-                    <div class="row px-0">
-                        <div class="col-5 my-auto">
-                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
-	                        <span class="navbar-toggler-icon"></span>
-	                        </button>
-                        </div>
-                        <div class="col-6 p-0 ml-auto">
-                        <a href="index.html"><img src=" ./assets/images/koller_logo_transparent.png"
-								class="smooth-transition" alt="Company logo" style="width:90%"></a>
-                        </div>
-                    </div>
-
-					<div class="collapse navbar-collapse" id="navbarToggler">
-						<ul class="nav d-md-none mr-auto mt-2">
-							<li class="nav-item nav-menu-item">
-								<a class="nav-link mx-3 my-2" href="index.html#about-us-jumbotron">About Us</a>
-							</li>
-							<li class="nav-item nav-menu-item">
-								<a class="nav-link mx-3 my-2" href="properties.html">Properties</a>
-							</li>
-							<li class="nav-item nav-menu-item">
-								<a class="nav-link mx-3 my-2" href="reservations.html">Reservations</a>
-							</li>
-							<li class="nav-item nav-menu-item">
-                                <button type="button" class="nav-link mx-3 my-2 uppercase" data-toggle="modal" data-target="#ContactModal">Contact</button>
-							</li>
-							<li class="nav-item nav-menu-item">
-								<a class="nav-link mx-3 my-2" href="user-log-in.html">Log In</a>
-							</li>
-						</ul>
-					</div>
+		<div class="container-fluid p-0 m-0" id="sticky-nav-menu">
+				<nav class="navbar navbar-expand-md bg-nav-menu-list">
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+							                    <span class="navbar-toggler-icon"></span>
+							                </button>
+					<a class="navbar-brand nav-logo-small d-md-none" href="index.html"><img src=" ./assets/images/koller_logo_transparent.png"
+												class="smooth-transition" alt="Company logo" style="max-width:185px"></a>
+						<div class="collapse navbar-collapse" id="navbarToggler">
+							<ul class="navbar-nav mr-auto mt-2">
+								<li class="nav-item nav-menu-item">
+									<a class="nav-link mx-2 my-2" href="index.html#about-us-jumbotron">About Us</a>
+								</li>
+								<li class="nav-item nav-menu-item">
+									<a class="nav-link mx-2 my-2" href="properties.html">Properties</a>
+								</li>
+								<li class="nav-item nav-menu-item">
+									<a class="nav-link mx-2 my-2" href="reservations.html">Reservations</a>
+								</li>
+								<li class="nav-item nav-menu-item">
+									<button type="button" class="nav-link mx-3 my-2 uppercase" data-toggle="modal" data-target="#ContactModal">Contact</button>
+								</li>
+								<li class="nav-item nav-menu-item">
+									<a class="nav-link mx-2 my-2" href="user-log-in.html">Log In</a>
+								</li>
+							</ul>
+						</div>
 				</nav>
-			</div>
+		</div>
 
-		<div class="container-fluid pr-0 cityscape2 bg-big-container smooth-transition">
+		<div class="container-fluid p-0 m-0 cityscape2 bg-big-container smooth-transition">
 			<div class="deep-puce-color color-opaque-overlay">&nbsp;</div>
 
-			<!-- ..... Log-in Banner .... -->
-
-			<div class="banner-log-in bg-banner-log-in d-none d-md-block">
-				<form>
-					<div class="form-row align-items-center">
-						<div class="ml-auto col-3 col-lg-2 my-1">
-							<label class="sr-only" for="inlineFormInputGroupUsername">Username</label>
-							<div class="input-group">
-								<input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Username">
-	                            </div>
-							</div>
-							<div class="col-auto my-1">
-								<div class="form-check">
-									<input class="form-check-input" type="checkbox" id="autoSizingCheck2">
-									<label class="form-check-label" for="autoSizingCheck2">Remember me</label>
-								</div>
-							</div>
-							<div class="col-auto my-1 mr-3">
-								<button type="submit" class="btn btn-violet">Log In</button>
-							</div>
-						</div>
-				</form>
-			</div>
-
-			<!-- ..... Logo and Slogan + Nav Menu (Large screen). .... -->
+			<!-- ..... Logo and Slogan .... -->
 
 			<div class="row mx-0">
 				<div class="col px-0 mt-md-0">
 					<div class="row mx-0">
 						<div class="col-2 col-md-8 pl-0">
 							<a href="index.html"><img src=" ./assets/images/koller_logo_transparent.png"
-								class="header-logo smooth-transition rounded mx-auto d-block" alt="Company logo" style="width:100%"></a>
+								class="header-logo smooth-transition rounded mx-auto d-block" alt="Company logo" style="max-height:200px"></a>
 						</div>
 						<div class="col-10 col-md-4 p-0 header-slogan smooth-transition">Our <span class="bold-weight">Properties</span><br />Your <span class="bold-weight">Success</span></div>
 					</div>
-				</div>
-				<div class="col-3 d-none d-md-block pr-0 offset-1 smooth-transition">
-					<ul class="nav flex-column mt-4 bg-nav-menu-list">
-						<li class="nav-item">
-							<a class="nav-link nav-menu-item" href="index.html#about-us-jumbotron">About us</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link nav-menu-item" href="properties.html">Properties</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link nav-menu-item" href="reservations.html">Reservations</a>
-						</li>
-						<li class="nav-item nav-menu-item">
-                            <button type="button" class="nav-link uppercase" data-toggle="modal" data-target="#ContactModal">Contact</button>
-						</li>
-					</ul>
 				</div>
 			</div>
 		</div>
@@ -135,10 +87,10 @@
 	
 		<div class="container-fluid intro-container content-container bg-intro-container">
 			<div class="row">
-				<div class="col-12 px-0 px-md-4 intro-text">
-					<h2 class="properties-subtitle general-subtitle pl-1 pl-md-4">Our
+				<div class="col-12 px-md-4 intro-text">
+					<h2 class="display-4 properties-subtitle general-subtitle pl-md-4">Our
 						<span class="bold-weight">Properties</span></h2>
-					<p class="lead pl-1 pl-md-4"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum doloribus
+					<p class="lead pl-md-4"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum doloribus
 						quam
 						quasi
 						eos inventore facere modi natus, laboriosam repellendus distinctio qui, provident earum velit
@@ -256,9 +208,9 @@
     
 	<!-- .......  Intersection: Cityscape background ...... -->
 
-	<div class="container-fluid intersection-container">
-		<div class="deep-puce-color color-opaque-overlay color-opaque-overlay-short">&nbsp;</div>
-
+    <div class="container-fluid intersection-container">
+		<div class="logo-overlay">&nbsp;</div>
+		<div class="deep-puce-color color-opaque-overlay color-opaque-overlay-short">&nbsp;</div>	
 	</div>
 
 	<!-- .......  Section: Our Properties Locations ...... -->
@@ -270,18 +222,18 @@
                     <div class="row">                                              
                         <div class="col-12 mb-5">
                             <a id="property-map"></a> 
-                            <h1 class="general-subtitle"><span class="bold-weight">Location</span> Selector</h1>
+                            <h2 class="display-4 general-subtitle"><span class="bold-weight">Location</span> Selector</h2>
                             <hr class="my-3 divider-short-light">
                         </div>
                     </div>
 
 
                     <div class="row">
-                        <div class="col-12 px-0 col-lg-6">
+                        <div class="col-12 mt-md-4 px-0 col-lg-6">
 
                             <!-- ....  Locations Selector .... -->
 
-                            <h2 class="display-5 general-subtitle-light">Property Map</h2>
+                            <h2 class="display-5 general-subtitle-light">Property <span class="bold-weight">Map</span></h2>
                             <p> Select one property on the map below which best suits your needs. You can use the filters to narrow down your search. </p>
                             <div class="d-block">
                                 <div class="dropdown d-inline">
