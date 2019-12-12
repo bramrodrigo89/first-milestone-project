@@ -356,6 +356,16 @@ Color Palette
     width: 100%;
 }
 
+.carrouel-indicators {
+    z-index: 2;
+}
+
+.max-height-400 {
+    max-height: 550px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .about-us-container {
     height: 100vh;
     background: url('../images/background_image1.jpg') no-repeat bottom left fixed;
@@ -389,7 +399,7 @@ Color Palette
 
 .content-light-jumbotron {
     padding: 1rem 1rem;
-    background-color: rgba(236, 227, 232, 1.0);
+    background-color: #fafafa
     color: #372549;
     font-family: 'Open Sans', sans-serif;
 }
@@ -579,12 +589,11 @@ footer {
     .header-logo {
     visibility: visible;
     margin-top: 8em;
-    max-height: 250px;
     }
 
     .header-slogan {
     font-size: 30px;
-    margin-top: 7em;
+    margin-top: 8em;
     font-weight: 300;
     }
 
