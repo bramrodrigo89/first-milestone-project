@@ -29,55 +29,68 @@
 
 	<header>
 
-			<!-- ..... Expand Nav Menu (Small screen) .... -->
+			<!-- ..... Expand Nav Menu .... -->
 
 			<div class="bg-nav-menu-list" id="sticky-nav-menu-small-screen">
-				<nav class="navbar navbar-expand-md navbar-light sm-block d-md-none">
-                    
+				<nav class="navbar navbar-expand-md navbar-light sm-block">
                     <div class="row px-0">
-                        <div class="col-5 my-auto">
+                        <div class="col-5 col-md-1 my-auto">
                             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
 	                        <span class="navbar-toggler-icon"></span>
 	                        </button>
                         </div>
-                        <div class="col-6 p-0 ml-auto">
+                        <div class="col-6 d-md-none p-0 ml-auto">
                         <a href="index.html"><img src=" ./assets/images/koller_logo_transparent.png"
 								class="smooth-transition" alt="Company logo" style="width:90%"></a>
                         </div>
                     </div>
 
 					<div class="collapse navbar-collapse" id="navbarToggler">
-						<ul class="nav d-md-none mr-auto mt-2">
+						<ul class="nav mr-auto mt-2">
 							<li class="nav-item nav-menu-item">
-								<a class="nav-link mx-3 my-2" href="index.html#about-us-jumbotron">About Us</a>
+								<a class="nav-link mx-2 my-2" href="index.html#about-us-jumbotron">About Us</a>
 							</li>
 							<li class="nav-item nav-menu-item">
-								<a class="nav-link mx-3 my-2" href="properties.html">Properties</a>
+								<a class="nav-link mx-2 my-2" href="properties.html">Properties</a>
 							</li>
 							<li class="nav-item nav-menu-item">
-								<a class="nav-link mx-3 my-2" href="reservations.html">Reservations</a>
+								<a class="nav-link mx-2 my-2" href="reservations.html">Reservations</a>
 							</li>
 							<li class="nav-item nav-menu-item">
                                 <button type="button" class="nav-link mx-3 my-2 uppercase" data-toggle="modal" data-target="#ContactModal">Contact</button>
 							</li>
 							<li class="nav-item nav-menu-item">
-								<a class="nav-link mx-3 my-2" href="user-log-in.html">Log In</a>
+								<a class="nav-link mx-2 my-2" href="user-log-in.html">Log In</a>
 							</li>
 						</ul>
 					</div>
 				</nav>
 			</div>
 
-		<div class="container-fluid pr-0 cityscape1 bg-big-container smooth-transition">
-			<div class="deep-puce-color color-opaque-overlay">&nbsp;</div>
+            <!-- ..... Nav Menu (Medium, Large Screen) .... 
 
-			<!-- ..... Log-in Banner .... -->
-
-			<div class="banner-log-in bg-banner-log-in d-none d-md-block">
-				<form>
+			<div class="bg-nav-menu-list d-none d-md-block">
+				<ul class="nav flex-column">
+					<li class="nav-item">
+						<a class="nav-link nav-menu-item" href="index.html#about-us-jumbotron">About us</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link nav-menu-item" href="properties.html">Properties</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link nav-menu-item" href="reservations.html">Reservations</a>
+					</li>
+					<li class="nav-item nav-menu-item">
+						<button type="button" class="nav-link uppercase" data-toggle="modal" data-target="#ContactModal">Contact</button>
+					</li>
+				</ul>
+                
+                <form>
 					<div class="form-row align-items-center">
 						<div class="ml-auto col-3 col-lg-2 my-1">
-							<label class="sr-only" for="inlineFormInputGroupUsername">Username</label>
+
+							
+                            <label class="sr-only" for="inlineFormInputGroupUsername">Username</label>
 							<div class="input-group">
 								<input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Username">
 	                            </div>
@@ -87,15 +100,20 @@
 									<input class="form-check-input" type="checkbox" id="autoSizingCheck2">
 									<label class="form-check-label" for="autoSizingCheck2">Remember me</label>
 								</div>
-							</div>
+							</div> 
+                            
 							<div class="col-auto my-1 mr-3">
 								<button type="submit" class="btn btn-violet">Log In</button>
 							</div>
 						</div>
 				</form>
-			</div>
+			</div> 
+            -->
 
-			<!-- ..... Logo and Slogan + Nav Menu (Large screen). .... -->
+		<div class="container-fluid cityscape1 bg-big-container smooth-transition">
+			<div class="deep-puce-color color-opaque-overlay">&nbsp;</div>
+
+			<!-- ..... Logo and Slogan .... -->
 
 			<div class="row mx-0">
 				<div class="col px-0 mt-md-0">
@@ -107,30 +125,14 @@
 						<div class="col-10 col-md-4 p-0 header-slogan smooth-transition">Our <span class="bold-weight">Properties</span><br />Your <span class="bold-weight">Success</span></div>
 					</div>
 				</div>
-				<div class="col-3 d-none d-md-block pr-0 offset-1 smooth-transition">
-					<ul class="nav flex-column mt-4 bg-nav-menu-list">
-						<li class="nav-item">
-							<a class="nav-link nav-menu-item" href="index.html#about-us-jumbotron">About us</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link nav-menu-item" href="properties.html">Properties</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link nav-menu-item" href="reservations.html">Reservations</a>
-						</li>
-						<li class="nav-item nav-menu-item">
-                            <button type="button" class="nav-link uppercase" data-toggle="modal" data-target="#ContactModal">Contact</button>
-						</li>
-					</ul>
-				</div>
 			</div>
 		</div>
 	
     </header>
 
-		<!-- ....... Section: About Us ...... -->
-	<a id="about-us-jumbotron"></a>
-
+	<!-- ....... Section: About Us ...... -->
+	
+    <a id="about-us-jumbotron"></a>
     <section>	
 
 		<div class="container-fluid intro-container content-container bg-intro-container">

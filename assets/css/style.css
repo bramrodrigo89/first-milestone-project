@@ -15,16 +15,11 @@ Color Palette
     dust storm #EACDC2
 */
 
-.bg-banner-log-in {
-    background-color: transparent;
-    color: #372549;
-}
-
 .bg-nav-menu-list {
     background-color: #ece3e8;
-    color: #1b1423;
-    width: 100%;
-    border: 0px;
+    color: #1b1423; 
+    margin-top: 0px;
+    padding-top: 0px;
 }
 
 .cityscape1 {
@@ -45,6 +40,7 @@ Color Palette
     background-size: cover;
     height: 100vh;
     position: relative;
+    padding-right: 0px;
 }
 
 .bg-services-container {
@@ -290,7 +286,7 @@ Color Palette
 
 #sticky-nav-menu-small-screen {
     overflow: hidden;
-    z-index: 2;
+    z-index: 3;
 }
 
 .sticky {
@@ -577,12 +573,12 @@ footer {
 @media(min-width: 768px) {
     .header-logo {
     visibility: visible;
-    margin-top: 20px;
+    margin-top: 10em;
     }
 
     .header-slogan {
     font-size: 30px;
-    margin-top: 10px;
+    margin-top: 7em;
     font-weight: 300;
     }
 
