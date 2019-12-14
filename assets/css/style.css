@@ -328,7 +328,6 @@ html,body
     display: block;
     padding: 1rem 1rem;
     color: rgb(12, 12, 12);
-    max-width: 200px;
 }
 
 .navbar {
@@ -640,8 +639,7 @@ footer {
 
     .nav-link {
     font-size: 20px;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    margin-right: 2rem;
     }
     .header-slogan {
     margin-top: 8em;
@@ -667,6 +665,7 @@ footer {
 @media(min-width: 1440px) {
     .nav-link {
     font-size: 30px;
+    margin-right: 3rem;
     }
 
     .header-slogan, .header-logo {
