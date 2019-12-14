@@ -600,17 +600,14 @@ footer {
 
     .header-slogan, .header-logo {
     font-size: 30px;
-    margin-top: 7em;
+    margin-top: 3.5em;
     font-weight: 300;
     text-align: left;
     }
 
-    .header-slogan {
-    margin-top: 5em;
-    }
-
     .header-logo {
     visibility: visible;
+    margin-top: 2em;
     max-height: 200px;
     }
 
@@ -660,12 +657,7 @@ footer {
     .white-small-logo {
     width: 10%;
     }
-    .header-logo {
-    margin-top: 6.5em;
-    }
-    .header-slogan {
-    margin-top 7.5em;
-    }
+
     .locations-map {
     height: 600px;
     }
