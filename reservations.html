@@ -34,30 +34,30 @@
 		<div class="container-fluid p-0 m-0 cityscape3 bg-big-container smooth-transition">
 			<div class="deep-puce-color color-opaque-overlay">&nbsp;</div>
 
-            <div class="container-fluid p-0 m-0" id="sticky-nav-menu">
+            <div id="sticky-nav-menu">
 				<nav class="navbar navbar-expand-md navbar-light bg-nav-menu-list">
 					<a class="navbar-brand" href="index.html">
                     <div class="nav-logo-small"></div>
                     </a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
 					<div class="collapse navbar-collapse" id="navbarToggler">
 							<ul class="navbar-nav mr-auto mt-2">
 								<li class="nav-item nav-menu-item">
-									<a class="nav-link mx-2 my-2" href="index.html#about-us-jumbotron">About Us</a>
+									<a class="nav-link ml-2 mr-0 my-2" href="index.html#about-us-jumbotron">About Us</a>
 								</li>
 								<li class="nav-item nav-menu-item">
-									<a class="nav-link mx-2 my-2" href="properties.html">Properties</a>
+									<a class="nav-link ml-2 mr-0 my-2" href="properties.html">Properties</a>
 								</li>
 								<li class="nav-item nav-menu-item">
-									<a class="nav-link mx-2 my-2" href="reservations.html">Reservations</a>
+									<a class="nav-link ml-2 mr-0 my-2" href="reservations.html">Reservations</a>
 								</li>
 								<li class="nav-item nav-menu-item">
-									<button type="button" class="nav-link mx-2 my-2 uppercase" data-toggle="modal" data-target="#ContactModal">Contact</button>
+									<button type="button" class="nav-link ml-2 mr-0 my-2 uppercase" data-toggle="modal" data-target="#ContactModal">Contact</button>
 								</li>
 								<li class="nav-item nav-menu-item">
-									<button type="button" class="nav-link mx-2 my-2 uppercase" data-toggle="modal" data-target="#LogInModal">Log In</button>
+									<button type="button" class="nav-link ml-2 mr-0 my-2 uppercase" data-toggle="modal" data-target="#LogInModal">Log In</button>
 								</li>
 							</ul>
 					</div>
@@ -69,11 +69,11 @@
 			<div class="row mx-0">
 				<div class="col px-0 mt-md-0">
 					<div class="row mx-0">
-						<div class="col-2 col-md-8 pl-0 header-logo smooth-transition">
+						<div class="d-none d-md-block col-md-8 pl-0 header-logo smooth-transition">
 							<a href="index.html"><img src=" ./assets/images/koller_logo_transparent.png"
 								class="rounded mx-auto d-block" alt="Company logo" style="max-height:250px"></a>
 						</div>
-						<div class="col-10 col-md-4 p-0 header-slogan smooth-transition">Our <span class="bold-weight">Properties</span><br />Your <span class="bold-weight">Success</span></div>
+						<div class="col-12 col-md-4 p-0 header-slogan smooth-transition">Our <span class="bold-weight">Properties</span><br />Your <span class="bold-weight">Success</span></div>
 					</div>
 				</div>
 			</div>
@@ -711,7 +711,7 @@
                             </div>
                             <div class="form-row text-center">
                                 <div class="col">
-                                    <button type="submit" class="btn btn-reserve" data-toggle="tooltip" data-placement="bottom" title="Sorry! This option is not working yet" disabled>Send Inquiry</button>
+                                    <button type="submit" class="btn btn-reserve">Send Inquiry</button>
                                 </div>
                             </div>
                         </form>
@@ -763,7 +763,7 @@
         </div>
     </div>
 
-        <!-- ...... Service Unavailable Modal ......-->
+    <!-- ...... Service Unavailable Modal ......-->
 
     <div class="modal fade" id="SorryModal" tabindex="-1" role="dialog" aria-labelledby="SorryLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
@@ -784,25 +784,7 @@
             </div>
         </div>
     </div>
-
-
-	<!-- ...... JS For Navbar ...... -->
-
-	<script>
-		window.onscroll = function() {makeSticky()};    
-	
-	                var navbar = document.getElementById("sticky-nav-menu-small-screen");
-	                var sticky = navbar.offsetTop;
-	
-	                function makeSticky() {
-	                    if (window.pageYOffset >= sticky) {
-	                        navbar.classList.add("sticky")
-	                    } else {
-	                        navbar.classList.remove("sticky");
-	                    }
-	                }
-	</script>
-    
+  
     <!-- ...... JS For Bootstrap ...... -->
 
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"

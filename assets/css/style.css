@@ -96,6 +96,7 @@ html,body
     height: 100%;
     margin: 0px;
     padding: 0px;
+    overflow-x: hidden;
 }
 
 .logo-slogan-nav-menu {
@@ -292,15 +293,11 @@ html,body
 }
 
 #sticky-nav-menu {
-    z-index: 5;
+    z-index: 10;
     overflow: hidden;
-}
-
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 10;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .header-logo {
@@ -313,23 +310,25 @@ html,body
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 80px;
-    width: 180px;
+    height: 50px;
+    width: 150px;
     padding: 0px;
 }
 
 .header-slogan {
-    font-size: 30px;
-    margin-top: 3em;
+    font-size: 35px;
+    margin-top: 4em;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
-    color: #080808
+    color: #080808;
+    text-align: center;
 }
 
 .nav-link {
     display: block;
     padding: 1rem 1rem;
     color: rgb(12, 12, 12);
+    max-width: 200px;
 }
 
 .navbar {
@@ -395,7 +394,9 @@ html,body
 }
 
 .logo-overlay {
-    background: url('../images/white_logo_transparent_small.png') no-repeat top center fixed;
+    background: url('../images/white_logo_transparent_small.png');
+    background-repeat: no-repeat;
+    background-position: top center;
     height: 100%;
     width: 100%;
     position: relative;
@@ -586,10 +587,6 @@ footer {
 /*--------------------------------------------Media Queries */
 
 /*-----------Tablet (md) */
-@media (min-width: 576px) {
-
-}
-/*-----------Tablet (md) */
 
 @media(min-width: 768px) {
     .nav-link {
@@ -600,14 +597,14 @@ footer {
 
     .header-slogan, .header-logo {
     font-size: 30px;
-    margin-top: 3.5em;
+    margin-top: 5em;
     font-weight: 300;
     text-align: left;
     }
 
     .header-logo {
     visibility: visible;
-    margin-top: 2em;
+    margin-top: 7em;
     max-height: 200px;
     }
 
@@ -621,10 +618,6 @@ footer {
 
     .logo-overlay {
     background: url(../images/white_logo_transparent.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-attachment: relative;
-    background-position: 50% 5%;
     }
 
     .content-light-jumbotron {
@@ -649,6 +642,12 @@ footer {
     font-size: 20px;
     padding-left: 2rem;
     padding-right: 2rem;
+    }
+    .header-slogan {
+    margin-top: 8em;
+    }
+    .header-logo {
+    margin-top: 7em;
     }
     .intro-text {
     margin-top: auto;
