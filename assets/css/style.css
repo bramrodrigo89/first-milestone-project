@@ -398,7 +398,6 @@ html,body
     background-position: top center;
     height: 100%;
     width: 100%;
-    position: relative;
     opacity: 0.8;
     filter: alpha(opacity=50);
     background-size: contain;
@@ -616,7 +615,11 @@ footer {
     }
 
     .logo-overlay {
-    background: url(../images/white_logo_transparent.png);
+    background: url("../images/white_logo_transparent.png");
+    background-position: top center;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: contain;
     }
 
     .content-light-jumbotron {
