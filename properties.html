@@ -31,14 +31,18 @@
 
 		<!-- ..... Expand Nav Menu .... -->
 
-		<div class="container-fluid p-0 m-0" id="sticky-nav-menu">
-				<nav class="navbar navbar-expand-md bg-nav-menu-list">
-					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
-							                    <span class="navbar-toggler-icon"></span>
-							                </button>
-					<a class="navbar-brand nav-logo-small d-md-none" href="index.html"><img src=" ./assets/images/koller_logo_transparent.png"
-												class="smooth-transition" alt="Company logo" style="max-width:185px"></a>
-						<div class="collapse navbar-collapse" id="navbarToggler">
+		<div class="container-fluid p-0 m-0 cityscape2 bg-big-container smooth-transition">
+			<div class="deep-puce-color color-opaque-overlay">&nbsp;</div>
+
+            <div class="container-fluid p-0 m-0" id="sticky-nav-menu">
+				<nav class="navbar navbar-expand-md navbar-light bg-nav-menu-list">
+					<a class="navbar-brand" href="index.html">
+                    <div class="nav-logo-small"></div>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+					<div class="collapse navbar-collapse" id="navbarToggler">
 							<ul class="navbar-nav mr-auto mt-2">
 								<li class="nav-item nav-menu-item">
 									<a class="nav-link mx-2 my-2" href="index.html#about-us-jumbotron">About Us</a>
@@ -50,27 +54,24 @@
 									<a class="nav-link mx-2 my-2" href="reservations.html">Reservations</a>
 								</li>
 								<li class="nav-item nav-menu-item">
-									<button type="button" class="nav-link mx-3 my-2 uppercase" data-toggle="modal" data-target="#ContactModal">Contact</button>
+									<button type="button" class="nav-link mx-2 my-2 uppercase" data-toggle="modal" data-target="#ContactModal">Contact</button>
 								</li>
 								<li class="nav-item nav-menu-item">
-									<a class="nav-link mx-2 my-2" href="user-log-in.html">Log In</a>
+									<button type="button" class="nav-link mx-2 my-2 uppercase" data-toggle="modal" data-target="#LogInModal">Log In</button>
 								</li>
 							</ul>
-						</div>
+					</div>
 				</nav>
 		</div>
-
-		<div class="container-fluid p-0 m-0 cityscape2 bg-big-container smooth-transition">
-			<div class="deep-puce-color color-opaque-overlay">&nbsp;</div>
 
 			<!-- ..... Logo and Slogan .... -->
 
 			<div class="row mx-0">
 				<div class="col px-0 mt-md-0">
 					<div class="row mx-0">
-						<div class="col-2 col-md-8 pl-0">
+						<div class="col-2 col-md-8 pl-0 header-logo smooth-transition">
 							<a href="index.html"><img src=" ./assets/images/koller_logo_transparent.png"
-								class="header-logo smooth-transition rounded mx-auto d-block" alt="Company logo" style="max-height:200px"></a>
+								class="rounded mx-auto d-block" alt="Company logo" style="max-height:250px"></a>
 						</div>
 						<div class="col-10 col-md-4 p-0 header-slogan smooth-transition">Our <span class="bold-weight">Properties</span><br />Your <span class="bold-weight">Success</span></div>
 					</div>
@@ -237,7 +238,7 @@
                             <p> Select one property on the map below which best suits your needs. You can use the filters to narrow down your search. </p>
                             <div class="d-block">
                                 <div class="dropdown d-inline">
-                                    <button class="btn btn-map-filter dropdown-toggle" type="button" id="dropdown-property-type" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <button class="btn btn-map-filter dropdown-toggle" type="button" id="dropdown-property-type" aria-haspopup="true" aria-expanded="false" data-toggle="tooltip" data-placement="bottom" title="Sorry! This option is not working yet" disabled>
                                     Type
                                 </button>
                                     <div class="dropdown-menu" aria-labelledby="dropdown-property-type">
@@ -246,7 +247,7 @@
                                     </div>
                                 </div>
                                 <div class="dropdown d-inline">
-                                    <button class="btn btn-map-filter dropdown-toggle" type="button" id="dropdown-property-zone" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <button class="btn btn-map-filter dropdown-toggle" type="button" id="dropdown-property-zone" aria-haspopup="true" aria-expanded="false" data-toggle="tooltip" data-placement="bottom" title="Sorry! This option is not working yet"" disabled>
                                     Filter 2
                                 </button>
                                     <div class="dropdown-menu" aria-labelledby="dropdown-property-zone">
@@ -449,6 +450,7 @@
 	</footer>
 
     <!-- Contact Modal -->
+
     <div class="modal fade" id="ContactModal" tabindex="-1" role="dialog" aria-labelledby="ContactModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
              <div class="modal-content">
@@ -488,7 +490,7 @@
                             </div>
                             <div class="form-row text-center">
                                 <div class="col">
-                                    <button type="submit" class="btn btn-reserve">Send Inquiry</button>
+                                    <button type="submit" class="btn btn-reserve" data-toggle="tooltip" data-placement="bottom" title="Sorry! This option is not working yet" disabled>Send Inquiry</button>
                                 </div>
                             </div>
                         </form>
@@ -498,6 +500,67 @@
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                 </div>
              </div>
+        </div>
+    </div>
+
+    <!-- ...... Log In Modal ......-->
+
+    <div class="modal fade" id="LogInModal" tabindex="-1" role="dialog" aria-labelledby="LogInModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title general-subtitle-dark mb-0 uppercase" id="LogInModalLabel">Log In</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="LogInInputEmail">Email address</label>
+                            <input type="email" class="form-control" id="LogInInputEmail" aria-describedby="emailHelp">
+                        </div>
+                        <div class="form-group">
+                            <label for="LogInInputPassword">Password</label>
+                            <input type="password" class="form-control" id="LogInInputPassword">
+                        </div>
+                        <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" id="LogInCheck">
+                            <label class="form-check-label" for="LogInCheck">Remember me</label>
+                        </div>
+                        <div class="form-row text-center">
+                            <div class="col">
+                                <button type="submit" class="btn btn-reserve" data-toggle="tooltip" data-placement="bottom" title="Sorry! This option is not working yet" disabled>Log In</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <!-- ...... Service Unavailable Modal ......-->
+
+    <div class="modal fade" id="SorryModal" tabindex="-1" role="dialog" aria-labelledby="SorryLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title general-subtitle-dark mb-0 uppercase" id="SorryLabel">Sorry! Service Unavailable</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>This option is currently not working at this moment.</p>
+                    <p>Your information will not be stored or shared with anyone. Please check back later when our site has full capability.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
         </div>
     </div>
 
