@@ -11,11 +11,14 @@ Code was written mostly on my own but a some libraries were taken as well to imp
 
 I will be glad to hear your feedback about your experience using this website. 
 
-website available on GitHub Pages here: https://bramrodrigo89.github.io/first-milestone-project/
+Website hosted on GitHub Pages here: [Koller Investments Website](https://bramrodrigo89.github.io/first-milestone-project/)
  
 ## UX
 
-The main objective was to create a custom website for a landlord company called Koller Investments that rents different properties. The company needed online presence and a presentation card for other companies or even banks that inquiry about Koller Investments. Their current site is hosted on Google Sites (https://inversiones-koller.business.site/) but it is not informative enough.
+
+![Responsive Views of Home Page](documentation/responsive-home-koller.png)
+
+The main objective was to create a custom website for a landlord company called Koller Investments that rents different properties. The company needed online presence and a presentation card for other companies or even banks that inquiry about Koller Investments. Their current site is hosted on Google Sites [Koller Investments](https://inversiones-koller.business.site/) but it is not informative enough.
 
 The website also should give customers, the tenants, confidence on what the company can do and its cusomer care. 
 
@@ -27,9 +30,11 @@ This importance for a new website was identified through some User Stories like 
 
 - "I am working in a bank granting credits to small companies. I woud like a webiste where I can easily read who they area and what services they offer so I can assess the risk of a new loan."
 
-The website was first designed using a wireframe which can be found on miro.com under this link
+The website was first designed using a wireframe which can be found on miro.com under this link:
 
-https://miro.com/welcomeonboard/pWF4WYfOwQGFlzdkBtYxHZmh2gS7FpBOkM3iJwfwWTvZ1ItsQw8q418dVx18KyjY
+[Miro Wireframe - First Milestone Project](https://miro.com/welcomeonboard/pWF4WYfOwQGFlzdkBtYxHZmh2gS7FpBOkM3iJwfwWTvZ1ItsQw8q418dVx18KyjY)
+
+
 
 
 ## Features
@@ -66,16 +71,20 @@ Languages, frameworks, libraries used to construct this project:
     - Icons were imported to provide some visual iconography to information. 
 - [Google Font Library](https://fonts.google.com/)
     - Imported two different fonts, Open-Sans and Montserrat for texts. 
+- [Am I Responsive](http://ami.responsivedesign.is)
+    - Testing responsiveness of the website
 
 ## Testing
 
-Testing will be peformed when back end developmed is carried out. 
+Front-End Software was tested in real phones opening the webiste in a personal Pixel 2 to check the appearence in real life. 
+
+Testing of Back-End will be peformed when the back-end software is developed. 
 
 ## Deployment
 
 This project is available at the moment on GitHub pages only:
 
-https://bramrodrigo89.github.io/first-milestone-project/
+[Koller Investments Website](https://bramrodrigo89.github.io/first-milestone-project/)
 
 ## Credits
 
@@ -88,3 +97,6 @@ https://bramrodrigo89.github.io/first-milestone-project/
 ### Acknowledgements
 
 - I received inspiration for this project from my family. 
+- Special thanks to Code Institute and my two mentors for the direction I needed:
+- Anthony Ngene     @tonymontaro_mentor
+- Seun Owonikoko    @seun_mentor
